@@ -1,0 +1,53 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 2,
+    "group": "door",
+    "unlockingItems": [
+      {
+        "value": "CUSTOM:Darkened_Wooden_Planks"
+      }
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Darkened_Wooden_Planks"
+      },
+      {
+        "value": "CUSTOM:Darkened_Wooden_Planks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Darkened_Wooden_Planks"
+      },
+      {
+        "value": "CUSTOM:Darkened_Wooden_Planks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Darkened_Wooden_Planks"
+      },
+      {
+        "value": "CUSTOM:Darkened_Wooden_Planks"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:DarkenedWoodDoor"
+    },
+    "name": "darkened_wood_door_recipe",
+    "namespace": "mod"
+  }
+}

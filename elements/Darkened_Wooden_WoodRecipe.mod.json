@@ -1,0 +1,53 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 4,
+    "group": "bark",
+    "unlockingItems": [
+      {
+        "value": "CUSTOM:Darkened_Wooden_Log"
+      }
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Darkened_Wooden_Log"
+      },
+      {
+        "value": "CUSTOM:Darkened_Wooden_Log"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Darkened_Wooden_Log"
+      },
+      {
+        "value": "CUSTOM:Darkened_Wooden_Log"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Darkened_Wooden_Wood"
+    },
+    "name": "darkened_wooden_wood_recipe",
+    "namespace": "mod"
+  }
+}

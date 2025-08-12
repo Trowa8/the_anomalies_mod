@@ -1,0 +1,53 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 5,
+    "group": "wooden_stairs",
+    "unlockingItems": [
+      {
+        "value": "CUSTOM:Darkened_Wooden_Planks"
+      }
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Darkened_Wooden_Planks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Darkened_Wooden_Planks"
+      },
+      {
+        "value": "CUSTOM:Darkened_Wooden_Planks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Darkened_Wooden_Planks"
+      },
+      {
+        "value": "CUSTOM:Darkened_Wooden_Planks"
+      },
+      {
+        "value": "CUSTOM:Darkened_Wooden_Planks"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Darkened_Wooden_Stairs"
+    },
+    "name": "darkened_wooden_stairs_recipe",
+    "namespace": "mod"
+  }
+}

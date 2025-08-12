@@ -1,0 +1,15 @@
+{
+  "_fv": 79,
+  "_type": "itemextension",
+  "definition": {
+    "item": {
+      "value": "CUSTOM:Darkened_Wooden_Wood"
+    },
+    "enableFuel": true,
+    "fuelPower": {
+      "fixedValue": 700.0
+    },
+    "hasDispenseBehavior": false,
+    "compostLayerChance": 0.0
+  }
+}

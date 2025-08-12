@@ -1,0 +1,129 @@
+{
+  "_fv": 79,
+  "_type": "biome",
+  "definition": {
+    "name": "Darken",
+    "groundBlock": {
+      "value": "CUSTOM:DarkenedGrass"
+    },
+    "undergroundBlock": {
+      "value": "CUSTOM:DarkenedDirt"
+    },
+    "underwaterBlock": {
+      "value": "Blocks.GRAVEL"
+    },
+    "airColor": {
+      "value": -10066330,
+      "falpha": 0.0
+    },
+    "fogColor": {
+      "value": -13421773,
+      "falpha": 0.0
+    },
+    "grassColor": {
+      "value": -14735329,
+      "falpha": 0.0
+    },
+    "foliageColor": {
+      "value": -12041163,
+      "falpha": 0.0
+    },
+    "waterColor": {
+      "value": -12760751,
+      "falpha": 0.0
+    },
+    "waterFogColor": {
+      "value": -14867416,
+      "falpha": 0.0
+    },
+    "ambientSound": {
+      "value": "ambient.crimson_forest.additions"
+    },
+    "additionsSound": {
+      "value": "ambient.cave"
+    },
+    "music": {
+      "value": "ambient.basalt_deltas.loop"
+    },
+    "moodSound": {
+      "value": "ambient.soul_sand_valley.mood"
+    },
+    "moodSoundDelay": 5985,
+    "spawnParticles": true,
+    "particleToSpawn": {
+      "value": "CUSTOM:Darkened"
+    },
+    "particlesProbability": 0.30000000000000004,
+    "rainingPossibility": 0.0,
+    "temperature": 1.6,
+    "spawnBiome": true,
+    "spawnInCaves": false,
+    "spawnBiomeNether": false,
+    "genTemperature": {
+      "min": -0.3,
+      "max": 0.3
+    },
+    "genHumidity": {
+      "min": -0.3,
+      "max": 0.3
+    },
+    "genContinentalness": {
+      "min": -0.2,
+      "max": 0.2
+    },
+    "genErosion": {
+      "min": -0.3,
+      "max": 0.3
+    },
+    "genWeirdness": {
+      "min": -1.0,
+      "max": 2.0
+    },
+    "treesPerChunk": 1,
+    "vanillaTreeType": "Savanna trees",
+    "treeType": 1,
+    "minHeight": 4,
+    "treeStem": {
+      "value": "CUSTOM:Darkened_Wooden_Log"
+    },
+    "treeBranch": {
+      "value": "Blocks.AIR"
+    },
+    "treeVines": {
+      "value": "Blocks.AIR"
+    },
+    "treeFruits": {
+      "value": "Blocks.AIR"
+    },
+    "defaultFeatures": [
+      "Caves",
+      "Ores",
+      "MonsterRooms",
+      "ExtraGoldOre",
+      "InfestedStone",
+      "DeadBushes",
+      "Fossils"
+    ],
+    "spawnStronghold": false,
+    "spawnMineshaft": true,
+    "spawnMineshaftMesa": false,
+    "spawnPillagerOutpost": false,
+    "villageType": "none",
+    "spawnWoodlandMansion": false,
+    "spawnJungleTemple": false,
+    "spawnDesertPyramid": false,
+    "spawnSwampHut": false,
+    "spawnIgloo": false,
+    "spawnOceanMonument": false,
+    "spawnShipwreck": false,
+    "spawnShipwreckBeached": false,
+    "spawnBuriedTreasure": true,
+    "oceanRuinType": "NONE",
+    "spawnNetherBridge": false,
+    "spawnNetherFossil": true,
+    "spawnBastionRemnant": false,
+    "spawnEndCity": false,
+    "spawnRuinedPortal": "MOUNTAIN",
+    "spawnEntries": []
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "_fv": 79,
+  "_type": "structure",
+  "definition": {
+    "structure": "armory_bunker1",
+    "projection": "rigid",
+    "ignoredBlocks": [
+      {
+        "value": "Blocks.STRUCTURE_BLOCK"
+      }
+    ],
+    "spacing": 30,
+    "separation": 15,
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:Darken"
+      },
+      {
+        "value": "plains"
+      },
+      {
+        "value": "savanna_rock"
+      }
+    ],
+    "terrainAdaptation": "bury",
+    "generationStep": "SURFACE_STRUCTURES",
+    "surfaceDetectionType": "WORLD_SURFACE",
+    "useStartHeight": false,
+    "startHeightProviderType": "UNIFORM",
+    "startHeightMin": 0,
+    "startHeightMax": 128,
+    "size": 1,
+    "maxDistanceFromCenter": 64,
+    "jigsawPools": []
+  }
+}

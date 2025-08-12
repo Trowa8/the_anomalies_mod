@@ -1,0 +1,24 @@
+{
+  "_fv": 79,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "Forgotten",
+    "achievementDescription": "Find the Darken, a biome once normal, now in eternal darkness.",
+    "achievementIcon": {
+      "value": "Items.DISC_FRAGMENT_5"
+    },
+    "background": "Default",
+    "disableDisplay": false,
+    "showPopup": true,
+    "announceToChat": true,
+    "hideIfNotCompleted": false,
+    "rewardLoot": [],
+    "rewardRecipes": [],
+    "rewardXP": 4,
+    "achievementType": "task",
+    "parent": {
+      "value": "adventure/adventuring_time"
+    },
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"advancement_trigger\" deletable=\"false\" x=\"95\" y=\"37\"><next><block type=\"biome_entered\"><field name=\"biome\">CUSTOM:Darken</field></block></next></block></xml>"
+  }
+}

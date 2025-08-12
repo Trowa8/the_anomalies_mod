@@ -1,0 +1,11 @@
+{
+  "_fv": 79,
+  "_type": "painting",
+  "definition": {
+    "texture": "gentleman_pixel",
+    "width": 32,
+    "height": 32,
+    "title": "Gentleman",
+    "author": "Man"
+  }
+}

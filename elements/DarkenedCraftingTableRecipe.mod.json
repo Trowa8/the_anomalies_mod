@@ -1,0 +1,53 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "crafting_recipe",
+    "unlockingItems": [
+      {
+        "value": "TAG:mod:planks"
+      }
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "TAG:mod:planks"
+      },
+      {
+        "value": "TAG:mod:planks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "TAG:mod:planks"
+      },
+      {
+        "value": "TAG:mod:planks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "Blocks.CRAFTING_TABLE"
+    },
+    "name": "darkened_crafting_table_recipe",
+    "namespace": "mod"
+  }
+}
