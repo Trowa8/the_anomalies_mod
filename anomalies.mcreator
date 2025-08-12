@@ -1,0 +1,4056 @@
+{
+  "mod_elements": [
+    {
+      "name": "Crater1",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crater_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/anomalies/worldgen/placed_feature/crater_1.json",
+          "src/main/resources/data/anomalies/forge/biome_modifier/crater_1_biome_modifier.json",
+          "src/main/resources/data/anomalies/worldgen/configured_feature/crater_1.json"
+        ]
+      },
+      "path": "~/Structures"
+    },
+    {
+      "name": "Darkened",
+      "type": "particle",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkened",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/anomalies/client/particle/DarkenedParticle.java",
+          "src/main/resources/assets/anomalies/particles/darkened.json"
+        ]
+      }
+    },
+    {
+      "name": "DarkenedEffect",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkened_effect",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/anomalies/potion/DarkenedEffectMobEffect.java"
+        ]
+      }
+    },
+    {
+      "name": "Anomalies",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "anomalies",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Darken",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darken",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/anomalies/world/features/treedecorators/DarkenTrunkDecorator.java",
+          "src/main/resources/data/anomalies/worldgen/biome/darken.json",
+          "src/main/resources/data/anomalies/worldgen/placed_feature/darken_tree.json",
+          "src/main/resources/data/anomalies/worldgen/configured_feature/darken_tree.json",
+          "src/main/java/net/mcreator/anomalies/world/features/treedecorators/DarkenFruitDecorator.java",
+          "src/main/java/net/mcreator/anomalies/world/features/treedecorators/DarkenLeaveDecorator.java"
+        ]
+      }
+    },
+    {
+      "name": "DarkenedGrass",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkened_grass",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/anomalies/models/item/darkened_grass.json",
+          "src/main/resources/assets/anomalies/blockstates/darkened_grass.json",
+          "src/main/resources/data/anomalies/loot_tables/blocks/darkened_grass.json",
+          "src/main/resources/assets/anomalies/models/block/darkened_grass.json",
+          "src/main/java/net/mcreator/anomalies/block/DarkenedGrassBlock.java"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "DarkenedDirt",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkened_dirt",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/anomalies/loot_tables/blocks/darkened_dirt.json",
+          "src/main/resources/assets/anomalies/blockstates/darkened_dirt.json",
+          "src/main/resources/assets/anomalies/models/block/darkened_dirt.json",
+          "src/main/java/net/mcreator/anomalies/block/DarkenedDirtBlock.java",
+          "src/main/resources/assets/anomalies/models/item/darkened_dirt.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "Darkened_Wooden_Log",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkened_wooden_log",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/anomalies/block/Darkened_Wooden_LogBlock.java",
+          "src/main/resources/assets/anomalies/models/block/darkened_wooden_log.json",
+          "src/main/resources/assets/anomalies/models/item/darkened_wooden_log.json",
+          "src/main/resources/assets/anomalies/blockstates/darkened_wooden_log.json",
+          "src/main/resources/data/anomalies/loot_tables/blocks/darkened_wooden_log.json"
+        ]
+      },
+      "path": "~/Packs/Darkened_Wood_"
+    },
+    {
+      "name": "Darkened_Wooden_Wood",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkened_wooden_wood",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/anomalies/block/Darkened_Wooden_WoodBlock.java",
+          "src/main/resources/assets/anomalies/models/block/darkened_wooden_wood.json",
+          "src/main/resources/assets/anomalies/blockstates/darkened_wooden_wood.json",
+          "src/main/resources/data/anomalies/loot_tables/blocks/darkened_wooden_wood.json",
+          "src/main/resources/assets/anomalies/models/item/darkened_wooden_wood.json"
+        ]
+      },
+      "path": "~/Packs/Darkened_Wood_"
+    },
+    {
+      "name": "Darkened_Wooden_Planks",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkened_wooden_planks",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/anomalies/block/Darkened_Wooden_PlanksBlock.java",
+          "src/main/resources/assets/anomalies/models/item/darkened_wooden_planks.json",
+          "src/main/resources/data/anomalies/loot_tables/blocks/darkened_wooden_planks.json",
+          "src/main/resources/assets/anomalies/models/block/darkened_wooden_planks.json",
+          "src/main/resources/assets/anomalies/blockstates/darkened_wooden_planks.json"
+        ]
+      },
+      "path": "~/Packs/Darkened_Wood_"
+    },
+    {
+      "name": "Darkened_Wooden_Leaves",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkened_wooden_leaves",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/anomalies/blockstates/darkened_wooden_leaves.json",
+          "src/main/java/net/mcreator/anomalies/block/Darkened_Wooden_LeavesBlock.java",
+          "src/main/resources/assets/anomalies/models/item/darkened_wooden_leaves.json",
+          "src/main/resources/assets/anomalies/models/block/darkened_wooden_leaves.json"
+        ]
+      },
+      "path": "~/Packs/Darkened_Wood_"
+    },
+    {
+      "name": "Darkened_Wooden_Stairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkened_wooden_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/anomalies/blockstates/darkened_wooden_stairs.json",
+          "src/main/resources/data/anomalies/loot_tables/blocks/darkened_wooden_stairs.json",
+          "src/main/resources/assets/anomalies/models/block/darkened_wooden_stairs.json",
+          "src/main/resources/assets/anomalies/models/block/darkened_wooden_stairs_outer.json",
+          "src/main/java/net/mcreator/anomalies/block/Darkened_Wooden_StairsBlock.java",
+          "src/main/resources/assets/anomalies/models/item/darkened_wooden_stairs.json",
+          "src/main/resources/assets/anomalies/models/block/darkened_wooden_stairs_inner.json"
+        ]
+      },
+      "path": "~/Packs/Darkened_Wood_"
+    },
+    {
+      "name": "Darkened_Wooden_Slab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkened_wooden_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/anomalies/models/block/darkened_wooden_slab.json",
+          "src/main/java/net/mcreator/anomalies/block/Darkened_Wooden_SlabBlock.java",
+          "src/main/resources/assets/anomalies/models/block/darkened_wooden_slab_full.json",
+          "src/main/resources/assets/anomalies/models/block/darkened_wooden_slab_top.json",
+          "src/main/resources/assets/anomalies/models/item/darkened_wooden_slab.json",
+          "src/main/resources/data/anomalies/loot_tables/blocks/darkened_wooden_slab.json",
+          "src/main/resources/assets/anomalies/blockstates/darkened_wooden_slab.json"
+        ]
+      },
+      "path": "~/Packs/Darkened_Wood_"
+    },
+    {
+      "name": "Darkened_Wooden_Fence",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkened_wooden_fence",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/anomalies/loot_tables/blocks/darkened_wooden_fence.json",
+          "src/main/resources/assets/anomalies/models/item/darkened_wooden_fence.json",
+          "src/main/java/net/mcreator/anomalies/block/Darkened_Wooden_FenceBlock.java",
+          "src/main/resources/assets/anomalies/models/block/darkened_wooden_fence.json",
+          "src/main/resources/assets/anomalies/models/block/darkened_wooden_fence_post.json",
+          "src/main/resources/assets/anomalies/models/block/darkened_wooden_fence_inventory.json",
+          "src/main/resources/assets/anomalies/blockstates/darkened_wooden_fence.json"
+        ]
+      },
+      "path": "~/Packs/Darkened_Wood_"
+    },
+    {
+      "name": "Darkened_Wooden_FenceGate",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkened_wooden_fence_gate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/anomalies/models/block/darkened_wooden_fence_gate_wall.json",
+          "src/main/resources/assets/anomalies/models/block/darkened_wooden_fence_gate_wall_open.json",
+          "src/main/resources/data/anomalies/loot_tables/blocks/darkened_wooden_fence_gate.json",
+          "src/main/resources/assets/anomalies/blockstates/darkened_wooden_fence_gate.json",
+          "src/main/resources/assets/anomalies/models/item/darkened_wooden_fence_gate.json",
+          "src/main/java/net/mcreator/anomalies/block/Darkened_Wooden_FenceGateBlock.java",
+          "src/main/resources/assets/anomalies/models/block/darkened_wooden_fence_gate.json",
+          "src/main/resources/assets/anomalies/models/block/darkened_wooden_fence_gate_open.json"
+        ]
+      },
+      "path": "~/Packs/Darkened_Wood_"
+    },
+    {
+      "name": "Darkened_Wooden_PressurePlate",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkened_wooden_pressure_plate",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/anomalies/loot_tables/blocks/darkened_wooden_pressure_plate.json",
+          "src/main/resources/assets/anomalies/blockstates/darkened_wooden_pressure_plate.json",
+          "src/main/resources/assets/anomalies/models/item/darkened_wooden_pressure_plate.json",
+          "src/main/java/net/mcreator/anomalies/block/Darkened_Wooden_PressurePlateBlock.java",
+          "src/main/resources/assets/anomalies/models/block/darkened_wooden_pressure_plate.json",
+          "src/main/resources/assets/anomalies/models/block/darkened_wooden_pressure_plate_down.json"
+        ]
+      },
+      "path": "~/Packs/Darkened_Wood_"
+    },
+    {
+      "name": "Darkened_Wooden_Button",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkened_wooden_button",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/anomalies/models/block/darkened_wooden_button_pressed.json",
+          "src/main/java/net/mcreator/anomalies/block/Darkened_Wooden_ButtonBlock.java",
+          "src/main/resources/assets/anomalies/blockstates/darkened_wooden_button.json",
+          "src/main/resources/data/anomalies/loot_tables/blocks/darkened_wooden_button.json",
+          "src/main/resources/assets/anomalies/models/block/darkened_wooden_button.json",
+          "src/main/resources/assets/anomalies/models/item/darkened_wooden_button.json",
+          "src/main/resources/assets/anomalies/models/block/darkened_wooden_button_inventory.json"
+        ]
+      },
+      "path": "~/Packs/Darkened_Wood_"
+    },
+    {
+      "name": "Darkened_Wooden_WoodRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkened_wooden_wood_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/anomalies/advancements/recipes/darkened_wooden_wood_recipe.json",
+          "src/main/resources/data/anomalies/recipes/darkened_wooden_wood_recipe.json"
+        ]
+      },
+      "path": "~/Packs/Darkened_Wood_"
+    },
+    {
+      "name": "Darkened_Wooden_PlanksRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkened_wooden_planks_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/anomalies/advancements/recipes/darkened_wooden_planks_recipe.json",
+          "src/main/resources/data/anomalies/recipes/darkened_wooden_planks_recipe.json"
+        ]
+      },
+      "path": "~/Packs/Darkened_Wood_"
+    },
+    {
+      "name": "Darkened_Wooden_StairsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkened_wooden_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/anomalies/advancements/recipes/darkened_wooden_stairs_recipe.json",
+          "src/main/resources/data/anomalies/recipes/darkened_wooden_stairs_recipe.json"
+        ]
+      },
+      "path": "~/Packs/Darkened_Wood_"
+    },
+    {
+      "name": "Darkened_Wooden_SlabRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkened_wooden_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/anomalies/advancements/recipes/darkened_wooden_slab_recipe.json",
+          "src/main/resources/data/anomalies/recipes/darkened_wooden_slab_recipe.json"
+        ]
+      },
+      "path": "~/Packs/Darkened_Wood_"
+    },
+    {
+      "name": "Darkened_Wooden_FenceRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkened_wooden_fence_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/anomalies/recipes/darkened_wooden_fence_recipe.json",
+          "src/main/resources/data/anomalies/advancements/recipes/darkened_wooden_fence_recipe.json"
+        ]
+      },
+      "path": "~/Packs/Darkened_Wood_"
+    },
+    {
+      "name": "Darkened_Wooden_FenceGateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkened_wooden_fence_gate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/anomalies/recipes/darkened_wooden_fence_gate_recipe.json",
+          "src/main/resources/data/anomalies/advancements/recipes/darkened_wooden_fence_gate_recipe.json"
+        ]
+      },
+      "path": "~/Packs/Darkened_Wood_"
+    },
+    {
+      "name": "Darkened_Wooden_PressurePlateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkened_wooden_pressure_plate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/anomalies/advancements/recipes/darkened_wooden_pressure_plate_recipe.json",
+          "src/main/resources/data/anomalies/recipes/darkened_wooden_pressure_plate_recipe.json"
+        ]
+      },
+      "path": "~/Packs/Darkened_Wood_"
+    },
+    {
+      "name": "Darkened_Wooden_ButtonRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkened_wooden_button_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/anomalies/advancements/recipes/darkened_wooden_button_recipe.json",
+          "src/main/resources/data/anomalies/recipes/darkened_wooden_button_recipe.json"
+        ]
+      },
+      "path": "~/Packs/Darkened_Wood_"
+    },
+    {
+      "name": "Darkenedwoodenleavesloottable",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkenedwoodenleavesloottable",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/anomalies/loot_tables/blocks/darkened_wooden_leaves.json"
+        ]
+      },
+      "path": "~/Packs/Darkened_Wood_"
+    },
+    {
+      "name": "DarkenedWoodDoor",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkened_wood_door",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/anomalies/models/block/darkened_wood_door_bottom_right.json",
+          "src/main/resources/data/anomalies/loot_tables/blocks/darkened_wood_door.json",
+          "src/main/resources/assets/anomalies/models/item/darkened_wood_door.json",
+          "src/main/resources/assets/anomalies/blockstates/darkened_wood_door.json",
+          "src/main/resources/assets/anomalies/models/block/darkened_wood_door_top_left.json",
+          "src/main/resources/assets/anomalies/models/block/darkened_wood_door_bottom_left_open.json",
+          "src/main/resources/assets/anomalies/models/block/darkened_wood_door_top_right.json",
+          "src/main/resources/assets/anomalies/models/block/darkened_wood_door_bottom_right_open.json",
+          "src/main/resources/assets/anomalies/models/block/darkened_wood_door_top_left_open.json",
+          "src/main/resources/assets/anomalies/models/block/darkened_wood_door_bottom_left.json",
+          "src/main/java/net/mcreator/anomalies/block/DarkenedWoodDoorBlock.java",
+          "src/main/resources/assets/anomalies/models/block/darkened_wood_door_top_right_open.json"
+        ]
+      },
+      "path": "~/Packs/Darkened_Wood_"
+    },
+    {
+      "name": "DarkenedWoodDoorRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkened_wood_door_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/anomalies/advancements/recipes/darkened_wood_door_recipe.json",
+          "src/main/resources/data/anomalies/recipes/darkened_wood_door_recipe.json"
+        ]
+      },
+      "path": "~/Packs/Darkened_Wood_"
+    },
+    {
+      "name": "Darkened_Tool_Pickaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkened_tool_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/anomalies/item/Darkened_Tool_PickaxeItem.java",
+          "src/main/resources/assets/anomalies/models/item/darkened_tool_pickaxe.json"
+        ]
+      },
+      "path": "~/Packs/Darkened_Wood_"
+    },
+    {
+      "name": "Darkened_Tool_Axe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkened_tool_axe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/anomalies/item/Darkened_Tool_AxeItem.java",
+          "src/main/resources/assets/anomalies/models/item/darkened_tool_axe.json"
+        ]
+      },
+      "path": "~/Packs/Darkened_Wood_"
+    },
+    {
+      "name": "Darkened_Tool_Sword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkened_tool_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/anomalies/item/Darkened_Tool_SwordItem.java",
+          "src/main/resources/assets/anomalies/models/item/darkened_tool_sword.json"
+        ]
+      },
+      "path": "~/Packs/Darkened_Wood_"
+    },
+    {
+      "name": "Darkened_Tool_Shovel",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkened_tool_shovel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/anomalies/item/Darkened_Tool_ShovelItem.java",
+          "src/main/resources/assets/anomalies/models/item/darkened_tool_shovel.json"
+        ]
+      },
+      "path": "~/Packs/Darkened_Wood_"
+    },
+    {
+      "name": "Darkened_Tool_Hoe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkened_tool_hoe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/anomalies/item/Darkened_Tool_HoeItem.java",
+          "src/main/resources/assets/anomalies/models/item/darkened_tool_hoe.json"
+        ]
+      },
+      "path": "~/Packs/Darkened_Wood_"
+    },
+    {
+      "name": "Darkened_Tool_PickaxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkened_tool_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/anomalies/advancements/recipes/darkened_tool_pickaxe_recipe.json",
+          "src/main/resources/data/anomalies/recipes/darkened_tool_pickaxe_recipe.json"
+        ]
+      },
+      "path": "~/Packs/Darkened_Wood_"
+    },
+    {
+      "name": "Darkened_Tool_AxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkened_tool_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/anomalies/recipes/darkened_tool_axe_recipe.json",
+          "src/main/resources/data/anomalies/advancements/recipes/darkened_tool_axe_recipe.json"
+        ]
+      },
+      "path": "~/Packs/Darkened_Wood_"
+    },
+    {
+      "name": "Darkened_Tool_SwordRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkened_tool_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/anomalies/recipes/darkened_tool_sword_recipe.json",
+          "src/main/resources/data/anomalies/advancements/recipes/darkened_tool_sword_recipe.json"
+        ]
+      },
+      "path": "~/Packs/Darkened_Wood_"
+    },
+    {
+      "name": "Darkened_Tool_ShovelRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkened_tool_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/anomalies/recipes/darkened_tool_shovel_recipe.json",
+          "src/main/resources/data/anomalies/advancements/recipes/darkened_tool_shovel_recipe.json"
+        ]
+      },
+      "path": "~/Packs/Darkened_Wood_"
+    },
+    {
+      "name": "Darkened_Tool_HoeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkened_tool_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/anomalies/recipes/darkened_tool_hoe_recipe.json",
+          "src/main/resources/data/anomalies/advancements/recipes/darkened_tool_hoe_recipe.json"
+        ]
+      },
+      "path": "~/Packs/Darkened_Wood_"
+    },
+    {
+      "name": "DarkenedCraftingTableRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkened_crafting_table_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/anomalies/advancements/recipes/darkened_crafting_table_recipe.json",
+          "src/main/resources/data/anomalies/recipes/darkened_crafting_table_recipe.json"
+        ]
+      },
+      "path": "~/Packs/Darkened_Wood_/Recipies"
+    },
+    {
+      "name": "CustomSticksRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "custom_sticks_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/anomalies/advancements/recipes/custom_sticks_recipe.json",
+          "src/main/resources/data/anomalies/recipes/custom_sticks_recipe.json"
+        ]
+      },
+      "path": "~/Packs/Darkened_Wood_/Recipies"
+    },
+    {
+      "name": "Oak_Armor",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oak_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/anomalies/models/item/oak_armor_chestplate.json",
+          "src/main/java/net/mcreator/anomalies/item/Oak_ArmorItem.java",
+          "src/main/resources/assets/anomalies/models/item/oak_armor_leggings.json",
+          "src/main/resources/assets/anomalies/models/item/oak_armor_boots.json",
+          "src/main/resources/assets/anomalies/models/item/oak_armor_helmet.json"
+        ]
+      },
+      "path": "~/Vanilla Misc/Armor"
+    },
+    {
+      "name": "Oak_ArmorHelmetRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oak_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/anomalies/recipes/oak_armor_helmet_recipe.json",
+          "src/main/resources/data/anomalies/advancements/recipes/oak_armor_helmet_recipe.json"
+        ]
+      },
+      "path": "~/Vanilla Misc/Armor"
+    },
+    {
+      "name": "Oak_ArmorChestplateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oak_armor_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/anomalies/advancements/recipes/oak_armor_chestplate_recipe.json",
+          "src/main/resources/data/anomalies/recipes/oak_armor_chestplate_recipe.json"
+        ]
+      },
+      "path": "~/Vanilla Misc/Armor"
+    },
+    {
+      "name": "Oak_ArmorLeggingsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oak_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/anomalies/advancements/recipes/oak_armor_leggings_recipe.json",
+          "src/main/resources/data/anomalies/recipes/oak_armor_leggings_recipe.json"
+        ]
+      },
+      "path": "~/Vanilla Misc/Armor"
+    },
+    {
+      "name": "Oak_ArmorBootsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oak_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/anomalies/recipes/oak_armor_boots_recipe.json",
+          "src/main/resources/data/anomalies/advancements/recipes/oak_armor_boots_recipe.json"
+        ]
+      },
+      "path": "~/Vanilla Misc/Armor"
+    },
+    {
+      "name": "Speedlum",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "speedlum",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/anomalies/loot_tables/blocks/speedlum.json",
+          "src/main/resources/data/anomalies/forge/biome_modifier/speedlum_biome_modifier.json",
+          "src/main/resources/assets/anomalies/models/block/speedlum.json",
+          "src/main/resources/data/anomalies/worldgen/configured_feature/speedlum.json",
+          "src/main/resources/assets/anomalies/models/item/speedlum.json",
+          "src/main/java/net/mcreator/anomalies/block/SpeedlumBlock.java",
+          "src/main/resources/data/anomalies/worldgen/placed_feature/speedlum.json",
+          "src/main/resources/assets/anomalies/blockstates/speedlum.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "CoalCoke",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coal_coke",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/anomalies/item/CoalCokeItem.java",
+          "src/main/resources/assets/anomalies/models/item/coal_coke.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "CoalCokeExtention",
+      "type": "itemextension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coal_coke_extention",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "CokeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coke_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/anomalies/recipes/coke_recipe.json",
+          "src/main/resources/data/anomalies/advancements/recipes/coke_recipe.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "SteelMixture",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_mixture",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/anomalies/item/SteelMixtureItem.java",
+          "src/main/resources/assets/anomalies/models/item/steel_mixture.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "Limestone",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "limestone",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/anomalies/forge/biome_modifier/limestone_biome_modifier.json",
+          "src/main/java/net/mcreator/anomalies/block/LimestoneBlock.java",
+          "src/main/resources/data/anomalies/worldgen/placed_feature/limestone.json",
+          "src/main/resources/data/anomalies/worldgen/configured_feature/limestone.json",
+          "src/main/resources/assets/anomalies/models/block/limestone.json",
+          "src/main/resources/assets/anomalies/blockstates/limestone.json",
+          "src/main/resources/data/anomalies/loot_tables/blocks/limestone.json",
+          "src/main/resources/assets/anomalies/models/item/limestone.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "SteelMixturerecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_mixturerecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/anomalies/advancements/recipes/steel_mixturerecipe.json",
+          "src/main/resources/data/anomalies/recipes/steel_mixture_recipe.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "WoodenDagger",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wooden_dagger",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/anomalies/models/item/wooden_dagger.json",
+          "src/main/java/net/mcreator/anomalies/item/WoodenDaggerItem.java"
+        ]
+      },
+      "path": "~/Vanilla Misc/Items"
+    },
+    {
+      "name": "IronDagger",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_dagger",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/anomalies/item/IronDaggerItem.java",
+          "src/main/resources/assets/anomalies/models/item/iron_dagger.json"
+        ]
+      },
+      "path": "~/Vanilla Misc/Items"
+    },
+    {
+      "name": "StoneDagger",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_dagger",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/anomalies/models/item/stone_dagger.json",
+          "src/main/java/net/mcreator/anomalies/item/StoneDaggerItem.java"
+        ]
+      },
+      "path": "~/Vanilla Misc/Items"
+    },
+    {
+      "name": "DiamondDagger",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_dagger",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/anomalies/item/DiamondDaggerItem.java",
+          "src/main/resources/assets/anomalies/models/item/diamond_dagger.json"
+        ]
+      },
+      "path": "~/Vanilla Misc/Items"
+    },
+    {
+      "name": "GoldDagger",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_dagger",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/anomalies/item/GoldDaggerItem.java",
+          "src/main/resources/assets/anomalies/models/item/gold_dagger.json"
+        ]
+      },
+      "path": "~/Vanilla Misc/Items"
+    },
+    {
+      "name": "SteelIngot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_ingot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/anomalies/item/SteelIngotItem.java",
+          "src/main/resources/assets/anomalies/models/item/steel_ingot.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "SteelIngotRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_ingot_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/anomalies/recipes/steel_ingot_recipe.json",
+          "src/main/resources/data/anomalies/advancements/recipes/steel_ingot_recipe.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "WoodenDaggerRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wooden_dagger_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/anomalies/recipes/wooden_dagger_recipe.json",
+          "src/main/resources/data/anomalies/advancements/recipes/wooden_dagger_recipe.json"
+        ]
+      },
+      "path": "~/Vanilla Misc/Items"
+    },
+    {
+      "name": "StoneDaggerRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_dagger_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/anomalies/advancements/recipes/stone_dagger_recipe.json",
+          "src/main/resources/data/anomalies/recipes/stone_dagger_recipe.json"
+        ]
+      },
+      "path": "~/Vanilla Misc/Items"
+    },
+    {
+      "name": "IronDaggerRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_dagger_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/anomalies/advancements/recipes/iron_dagger_recipe.json",
+          "src/main/resources/data/anomalies/recipes/iron_dagger_recipe.json"
+        ]
+      },
+      "path": "~/Vanilla Misc/Items"
+    },
+    {
+      "name": "GoldDaggerRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_dagger_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/anomalies/advancements/recipes/gold_dagger_recipe.json",
+          "src/main/resources/data/anomalies/recipes/gold_dagger_recipe.json"
+        ]
+      },
+      "path": "~/Vanilla Misc/Items"
+    },
+    {
+      "name": "DiamondDaggerRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_dagger_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/anomalies/advancements/recipes/diamond_dagger_recipe.json",
+          "src/main/resources/data/anomalies/recipes/diamond_dagger_recipe.json"
+        ]
+      },
+      "path": "~/Vanilla Misc/Items"
+    },
+    {
+      "name": "SteelPickaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/anomalies/models/item/steel_pickaxe.json",
+          "src/main/java/net/mcreator/anomalies/item/SteelPickaxeItem.java"
+        ]
+      },
+      "path": "~/Packs/Steel"
+    },
+    {
+      "name": "SteelAxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/anomalies/models/item/steel_axe.json",
+          "src/main/java/net/mcreator/anomalies/item/SteelAxeItem.java"
+        ]
+      },
+      "path": "~/Packs/Steel"
+    },
+    {
+      "name": "SteelSword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/anomalies/item/SteelSwordItem.java",
+          "src/main/resources/assets/anomalies/models/item/steel_sword.json"
+        ]
+      },
+      "path": "~/Packs/Steel"
+    },
+    {
+      "name": "SteelShovel",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_shovel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/anomalies/item/SteelShovelItem.java",
+          "src/main/resources/assets/anomalies/models/item/steel_shovel.json"
+        ]
+      },
+      "path": "~/Packs/Steel"
+    },
+    {
+      "name": "SteelHoe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_hoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/anomalies/models/item/steel_hoe.json",
+          "src/main/java/net/mcreator/anomalies/item/SteelHoeItem.java"
+        ]
+      },
+      "path": "~/Packs/Steel"
+    },
+    {
+      "name": "SteelPickaxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/anomalies/recipes/steel_pickaxe_recipe.json",
+          "src/main/resources/data/anomalies/advancements/recipes/steel_pickaxe_recipe.json"
+        ]
+      },
+      "path": "~/Packs/Steel"
+    },
+    {
+      "name": "SteelAxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/anomalies/advancements/recipes/steel_axe_recipe.json",
+          "src/main/resources/data/anomalies/recipes/steel_axe_recipe.json"
+        ]
+      },
+      "path": "~/Packs/Steel"
+    },
+    {
+      "name": "SteelSwordRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/anomalies/recipes/steel_sword_recipe.json",
+          "src/main/resources/data/anomalies/advancements/recipes/steel_sword_recipe.json"
+        ]
+      },
+      "path": "~/Packs/Steel"
+    },
+    {
+      "name": "SteelShovelRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/anomalies/advancements/recipes/steel_shovel_recipe.json",
+          "src/main/resources/data/anomalies/recipes/steel_shovel_recipe.json"
+        ]
+      },
+      "path": "~/Packs/Steel"
+    },
+    {
+      "name": "SteelHoeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/anomalies/advancements/recipes/steel_hoe_recipe.json",
+          "src/main/resources/data/anomalies/recipes/steel_hoe_recipe.json"
+        ]
+      },
+      "path": "~/Packs/Steel"
+    },
+    {
+      "name": "SteelArmor",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/anomalies/models/item/steel_armor_chestplate.json",
+          "src/main/resources/assets/anomalies/models/item/steel_armor_helmet.json",
+          "src/main/resources/assets/anomalies/models/item/steel_armor_boots.json",
+          "src/main/resources/assets/anomalies/models/item/steel_armor_leggings.json",
+          "src/main/java/net/mcreator/anomalies/item/SteelArmorItem.java"
+        ]
+      },
+      "path": "~/Packs/Steel"
+    },
+    {
+      "name": "SteelArmorHelmetRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/anomalies/recipes/steel_armor_helmet_recipe.json",
+          "src/main/resources/data/anomalies/advancements/recipes/steel_armor_helmet_recipe.json"
+        ]
+      },
+      "path": "~/Packs/Steel"
+    },
+    {
+      "name": "SteelArmorChestplateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_armor_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/anomalies/advancements/recipes/steel_armor_chestplate_recipe.json",
+          "src/main/resources/data/anomalies/recipes/steel_armor_chestplate_recipe.json"
+        ]
+      },
+      "path": "~/Packs/Steel"
+    },
+    {
+      "name": "SteelArmorLeggingsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/anomalies/advancements/recipes/steel_armor_leggings_recipe.json",
+          "src/main/resources/data/anomalies/recipes/steel_armor_leggings_recipe.json"
+        ]
+      },
+      "path": "~/Packs/Steel"
+    },
+    {
+      "name": "SteelArmorBootsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/anomalies/advancements/recipes/steel_armor_boots_recipe.json",
+          "src/main/resources/data/anomalies/recipes/steel_armor_boots_recipe.json"
+        ]
+      },
+      "path": "~/Packs/Steel"
+    },
+    {
+      "name": "DarkenedEffectEffectStartedapplied",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkened_effect_effect_startedapplied",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/anomalies/procedures/DarkenedEffectEffectStartedappliedProcedure.java"
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "DarkenFoundAchievement",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darken_found_achievement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/anomalies/advancements/darken_found_achievement.json"
+        ]
+      }
+    },
+    {
+      "name": "VanillaMiscAchievement",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vanilla_misc_achievement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/anomalies/advancements/vanilla_misc_achievement.json"
+        ]
+      }
+    },
+    {
+      "name": "VanillaMiscAchievementProcedure",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vanilla_misc_achievement_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/anomalies/procedures/VanillaMiscAchievementProcedureProcedure.java"
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "PureAmethyst",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pure_amethyst",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/anomalies/models/item/pure_amethyst.json",
+          "src/main/java/net/mcreator/anomalies/item/PureAmethystItem.java"
+        ]
+      },
+      "path": "~/Vanilla Misc/Items"
+    },
+    {
+      "name": "PureAmethystRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pure_amethyst_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/anomalies/recipes/pure_amethyst_recipe.json",
+          "src/main/resources/data/anomalies/advancements/recipes/pure_amethyst_recipe.json"
+        ]
+      },
+      "path": "~/Vanilla Misc/Items"
+    },
+    {
+      "name": "AmethystPickaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/anomalies/models/item/amethyst_pickaxe.json",
+          "src/main/java/net/mcreator/anomalies/item/AmethystPickaxeItem.java"
+        ]
+      },
+      "path": "~/Vanilla Misc/Items"
+    },
+    {
+      "name": "AmethystAxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/anomalies/models/item/amethyst_axe.json",
+          "src/main/java/net/mcreator/anomalies/item/AmethystAxeItem.java"
+        ]
+      },
+      "path": "~/Vanilla Misc/Items"
+    },
+    {
+      "name": "AmethystSword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/anomalies/item/AmethystSwordItem.java",
+          "src/main/resources/assets/anomalies/models/item/amethyst_sword.json"
+        ]
+      },
+      "path": "~/Vanilla Misc/Items"
+    },
+    {
+      "name": "AmethystShovel",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_shovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/anomalies/models/item/amethyst_shovel.json",
+          "src/main/java/net/mcreator/anomalies/item/AmethystShovelItem.java"
+        ]
+      },
+      "path": "~/Vanilla Misc/Items"
+    },
+    {
+      "name": "AmethystHoe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_hoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/anomalies/models/item/amethyst_hoe.json",
+          "src/main/java/net/mcreator/anomalies/item/AmethystHoeItem.java"
+        ]
+      },
+      "path": "~/Vanilla Misc/Items"
+    },
+    {
+      "name": "AmethystPickaxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/anomalies/recipes/amethyst_pickaxe_recipe.json",
+          "src/main/resources/data/anomalies/advancements/recipes/amethyst_pickaxe_recipe.json"
+        ]
+      },
+      "path": "~/Vanilla Misc/Items"
+    },
+    {
+      "name": "AmethystAxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/anomalies/recipes/amethyst_axe_recipe.json",
+          "src/main/resources/data/anomalies/advancements/recipes/amethyst_axe_recipe.json"
+        ]
+      },
+      "path": "~/Vanilla Misc/Items"
+    },
+    {
+      "name": "AmethystSwordRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/anomalies/recipes/amethyst_sword_recipe.json",
+          "src/main/resources/data/anomalies/advancements/recipes/amethyst_sword_recipe.json"
+        ]
+      },
+      "path": "~/Vanilla Misc/Items"
+    },
+    {
+      "name": "AmethystShovelRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/anomalies/recipes/amethyst_shovel_recipe.json",
+          "src/main/resources/data/anomalies/advancements/recipes/amethyst_shovel_recipe.json"
+        ]
+      },
+      "path": "~/Vanilla Misc/Items"
+    },
+    {
+      "name": "AmethystHoeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/anomalies/recipes/amethyst_hoe_recipe.json",
+          "src/main/resources/data/anomalies/advancements/recipes/amethyst_hoe_recipe.json"
+        ]
+      },
+      "path": "~/Vanilla Misc/Items"
+    },
+    {
+      "name": "AmethystArmor",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/anomalies/models/item/amethyst_armor_boots.json",
+          "src/main/resources/assets/anomalies/models/item/amethyst_armor_helmet.json",
+          "src/main/resources/assets/anomalies/models/item/amethyst_armor_leggings.json",
+          "src/main/resources/assets/anomalies/models/item/amethyst_armor_chestplate.json",
+          "src/main/java/net/mcreator/anomalies/item/AmethystArmorItem.java"
+        ]
+      },
+      "path": "~/Vanilla Misc/Items"
+    },
+    {
+      "name": "AmethystArmorHelmetRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/anomalies/advancements/recipes/amethyst_armor_helmet_recipe.json",
+          "src/main/resources/data/anomalies/recipes/amethyst_armor_helmet_recipe.json"
+        ]
+      },
+      "path": "~/Vanilla Misc/Items"
+    },
+    {
+      "name": "AmethystArmorChestplateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_armor_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/anomalies/advancements/recipes/amethyst_armor_chestplate_recipe.json",
+          "src/main/resources/data/anomalies/recipes/amethyst_armor_chestplate_recipe.json"
+        ]
+      },
+      "path": "~/Vanilla Misc/Items"
+    },
+    {
+      "name": "AmethystArmorLeggingsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/anomalies/recipes/amethyst_armor_leggings_recipe.json",
+          "src/main/resources/data/anomalies/advancements/recipes/amethyst_armor_leggings_recipe.json"
+        ]
+      },
+      "path": "~/Vanilla Misc/Items"
+    },
+    {
+      "name": "AmethystArmorBootsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/anomalies/recipes/amethyst_armor_boots_recipe.json",
+          "src/main/resources/data/anomalies/advancements/recipes/amethyst_armor_boots_recipe.json"
+        ]
+      },
+      "path": "~/Vanilla Misc/Items"
+    },
+    {
+      "name": "TheConsumed",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_consumed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/anomalies/client/renderer/TheConsumedRenderer.java",
+          "src/main/resources/assets/anomalies/models/item/the_consumed_spawn_egg.json",
+          "src/main/resources/data/anomalies/forge/biome_modifier/the_consumed_biome_modifier.json",
+          "src/main/java/net/mcreator/anomalies/entity/TheConsumedEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "TheConsumedRunPlaybackCondition",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_consumed_run_playback_condition",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/anomalies/procedures/TheConsumedRunPlaybackConditionProcedure.java"
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "TheConsumedIdlePlaybackCondition",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_consumed_idle_playback_condition",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/anomalies/procedures/TheConsumedIdlePlaybackConditionProcedure.java"
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "PureAmethystRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pure_amethyst_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/anomalies/procedures/PureAmethystRightclickedProcedure.java"
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "Jumplum",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jumplum",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/anomalies/blockstates/jumplum.json",
+          "src/main/resources/data/anomalies/worldgen/placed_feature/jumplum.json",
+          "src/main/resources/assets/anomalies/models/item/jumplum.json",
+          "src/main/resources/data/anomalies/forge/biome_modifier/jumplum_biome_modifier.json",
+          "src/main/resources/assets/anomalies/models/block/jumplum.json",
+          "src/main/java/net/mcreator/anomalies/block/JumplumBlock.java",
+          "src/main/resources/data/anomalies/loot_tables/blocks/jumplum.json",
+          "src/main/resources/data/anomalies/worldgen/configured_feature/jumplum.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "PeacockTail",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "peacock_tail",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/anomalies/item/PeacockTailItem.java",
+          "src/main/resources/assets/anomalies/models/item/peacock_tail_chestplate.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "Peacockrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "peacockrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/anomalies/recipes/peacockrecipe.json",
+          "src/main/resources/data/anomalies/advancements/recipes/peacockrecipe.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "Tordolite",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tordolite",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/anomalies/item/TordoliteItem.java",
+          "src/main/resources/assets/anomalies/models/item/tordolite.json"
+        ]
+      },
+      "path": "~/Packs/Tordolite"
+    },
+    {
+      "name": "TordoliteOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tordolite_ore",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/anomalies/block/TordoliteOreBlock.java",
+          "src/main/resources/assets/anomalies/models/block/tordolite_ore.json",
+          "src/main/resources/data/anomalies/worldgen/placed_feature/tordolite_ore.json",
+          "src/main/resources/assets/anomalies/blockstates/tordolite_ore.json",
+          "src/main/resources/data/anomalies/forge/biome_modifier/tordolite_ore_biome_modifier.json",
+          "src/main/resources/assets/anomalies/models/item/tordolite_ore.json",
+          "src/main/resources/data/anomalies/worldgen/configured_feature/tordolite_ore.json",
+          "src/main/resources/data/anomalies/loot_tables/blocks/tordolite_ore.json"
+        ]
+      },
+      "path": "~/Packs/Tordolite"
+    },
+    {
+      "name": "TordoliteBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tordolite_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/anomalies/loot_tables/blocks/tordolite_block.json",
+          "src/main/resources/assets/anomalies/models/item/tordolite_block.json",
+          "src/main/resources/assets/anomalies/blockstates/tordolite_block.json",
+          "src/main/resources/assets/anomalies/models/block/tordolite_block.json",
+          "src/main/java/net/mcreator/anomalies/block/TordoliteBlockBlock.java"
+        ]
+      },
+      "path": "~/Packs/Tordolite"
+    },
+    {
+      "name": "TordoliteOreBlockRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tordolite_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/anomalies/advancements/recipes/tordolite_ore_block_recipe.json",
+          "src/main/resources/data/anomalies/recipes/tordolite_ore_block_recipe.json"
+        ]
+      },
+      "path": "~/Packs/Tordolite"
+    },
+    {
+      "name": "TordoliteBlockOreRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tordolite_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/anomalies/recipes/tordolite_block_ore_recipe.json",
+          "src/main/resources/data/anomalies/advancements/recipes/tordolite_block_ore_recipe.json"
+        ]
+      },
+      "path": "~/Packs/Tordolite"
+    },
+    {
+      "name": "TordoliteOreSmelting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tordolite_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/anomalies/advancements/recipes/tordolite_ore_smelting.json",
+          "src/main/resources/data/anomalies/recipes/tordolite_ore_smelting.json"
+        ]
+      },
+      "path": "~/Packs/Tordolite"
+    },
+    {
+      "name": "TordolitePickaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tordolite_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/anomalies/item/TordolitePickaxeItem.java",
+          "src/main/resources/assets/anomalies/models/item/tordolite_pickaxe.json"
+        ]
+      },
+      "path": "~/Packs/Tordolite"
+    },
+    {
+      "name": "TordoliteAxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tordolite_axe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/anomalies/item/TordoliteAxeItem.java",
+          "src/main/resources/assets/anomalies/models/item/tordolite_axe.json"
+        ]
+      },
+      "path": "~/Packs/Tordolite"
+    },
+    {
+      "name": "TordoliteSword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tordolite_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/anomalies/item/TordoliteSwordItem.java",
+          "src/main/resources/assets/anomalies/models/item/tordolite_sword.json"
+        ]
+      },
+      "path": "~/Packs/Tordolite"
+    },
+    {
+      "name": "TordoliteShovel",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tordolite_shovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/anomalies/models/item/tordolite_shovel.json",
+          "src/main/java/net/mcreator/anomalies/item/TordoliteShovelItem.java"
+        ]
+      },
+      "path": "~/Packs/Tordolite"
+    },
+    {
+      "name": "TordoliteHoe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tordolite_hoe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/anomalies/item/TordoliteHoeItem.java",
+          "src/main/resources/assets/anomalies/models/item/tordolite_hoe.json"
+        ]
+      },
+      "path": "~/Packs/Tordolite"
+    },
+    {
+      "name": "TordolitePickaxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tordolite_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/anomalies/recipes/tordolite_pickaxe_recipe.json",
+          "src/main/resources/data/anomalies/advancements/recipes/tordolite_pickaxe_recipe.json"
+        ]
+      },
+      "path": "~/Packs/Tordolite"
+    },
+    {
+      "name": "TordoliteAxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tordolite_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/anomalies/advancements/recipes/tordolite_axe_recipe.json",
+          "src/main/resources/data/anomalies/recipes/tordolite_axe_recipe.json"
+        ]
+      },
+      "path": "~/Packs/Tordolite"
+    },
+    {
+      "name": "TordoliteSwordRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tordolite_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/anomalies/recipes/tordolite_sword_recipe.json",
+          "src/main/resources/data/anomalies/advancements/recipes/tordolite_sword_recipe.json"
+        ]
+      },
+      "path": "~/Packs/Tordolite"
+    },
+    {
+      "name": "TordoliteShovelRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tordolite_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/anomalies/advancements/recipes/tordolite_shovel_recipe.json",
+          "src/main/resources/data/anomalies/recipes/tordolite_shovel_recipe.json"
+        ]
+      },
+      "path": "~/Packs/Tordolite"
+    },
+    {
+      "name": "TordoliteHoeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tordolite_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/anomalies/advancements/recipes/tordolite_hoe_recipe.json",
+          "src/main/resources/data/anomalies/recipes/tordolite_hoe_recipe.json"
+        ]
+      },
+      "path": "~/Packs/Tordolite"
+    },
+    {
+      "name": "TordoliteArmor",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tordolite_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/anomalies/models/item/tordolite_armor_leggings.json",
+          "src/main/resources/assets/anomalies/models/item/tordolite_armor_helmet.json",
+          "src/main/java/net/mcreator/anomalies/item/TordoliteArmorItem.java",
+          "src/main/resources/assets/anomalies/models/item/tordolite_armor_chestplate.json",
+          "src/main/resources/assets/anomalies/models/item/tordolite_armor_boots.json"
+        ]
+      },
+      "path": "~/Packs/Tordolite"
+    },
+    {
+      "name": "TordoliteArmorHelmetRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tordolite_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/anomalies/recipes/tordolite_armor_helmet_recipe.json",
+          "src/main/resources/data/anomalies/advancements/recipes/tordolite_armor_helmet_recipe.json"
+        ]
+      },
+      "path": "~/Packs/Tordolite"
+    },
+    {
+      "name": "TordoliteArmorChestplateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tordolite_armor_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/anomalies/recipes/tordolite_armor_chestplate_recipe.json",
+          "src/main/resources/data/anomalies/advancements/recipes/tordolite_armor_chestplate_recipe.json"
+        ]
+      },
+      "path": "~/Packs/Tordolite"
+    },
+    {
+      "name": "TordoliteArmorLeggingsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tordolite_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/anomalies/recipes/tordolite_armor_leggings_recipe.json",
+          "src/main/resources/data/anomalies/advancements/recipes/tordolite_armor_leggings_recipe.json"
+        ]
+      },
+      "path": "~/Packs/Tordolite"
+    },
+    {
+      "name": "TordoliteArmorBootsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tordolite_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/anomalies/recipes/tordolite_armor_boots_recipe.json",
+          "src/main/resources/data/anomalies/advancements/recipes/tordolite_armor_boots_recipe.json"
+        ]
+      },
+      "path": "~/Packs/Tordolite"
+    },
+    {
+      "name": "DeepslateTordoliteOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deepslate_tordolite_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/anomalies/loot_tables/blocks/deepslate_tordolite_ore.json",
+          "src/main/resources/assets/anomalies/models/item/deepslate_tordolite_ore.json",
+          "src/main/resources/assets/anomalies/models/block/deepslate_tordolite_ore.json",
+          "src/main/java/net/mcreator/anomalies/block/DeepslateTordoliteOreBlock.java",
+          "src/main/resources/assets/anomalies/blockstates/deepslate_tordolite_ore.json"
+        ]
+      },
+      "path": "~/Packs/Tordolite"
+    },
+    {
+      "name": "DeepslateTordoliteOreSmelting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deepslate_tordolite_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/anomalies/recipes/deepslate_tordolite_ore_smelting.json",
+          "src/main/resources/data/anomalies/advancements/recipes/deepslate_tordolite_ore_smelting.json"
+        ]
+      },
+      "path": "~/Packs/Tordolite"
+    },
+    {
+      "name": "SteelBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/anomalies/blockstates/steel_block.json",
+          "src/main/resources/assets/anomalies/models/block/steel_block.json",
+          "src/main/java/net/mcreator/anomalies/block/SteelBlockBlock.java",
+          "src/main/resources/assets/anomalies/models/item/steel_block.json",
+          "src/main/resources/data/anomalies/loot_tables/blocks/steel_block.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "CoalCokeBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coal_coke_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/anomalies/block/CoalCokeBlockBlock.java",
+          "src/main/resources/assets/anomalies/models/block/coal_coke_block.json",
+          "src/main/resources/assets/anomalies/models/item/coal_coke_block.json",
+          "src/main/resources/data/anomalies/loot_tables/blocks/coal_coke_block.json",
+          "src/main/resources/assets/anomalies/blockstates/coal_coke_block.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "SteelBlockRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/anomalies/advancements/recipes/steel_block_recipe.json",
+          "src/main/resources/data/anomalies/recipes/steel_block_recipe.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "SteelBlockUncraftRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_block_uncraft_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/anomalies/recipes/steel_block_uncraft_recipe.json",
+          "src/main/resources/data/anomalies/advancements/recipes/steel_block_uncraft_recipe.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "CoalCokeBlockRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coal_coke_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/anomalies/advancements/recipes/coal_coke_block_recipe.json",
+          "src/main/resources/data/anomalies/recipes/coal_coke_block_recipe.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "CoalCokeBlockUncraftRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coal_coke_block_uncraft_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/anomalies/recipes/coal_coke_block_uncraft_recipe.json",
+          "src/main/resources/data/anomalies/advancements/recipes/coal_coke_block_uncraft_recipe.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "WarpedNetherack",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "warped_netherack",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/anomalies/block/WarpedNetherackBlock.java",
+          "src/main/resources/data/anomalies/loot_tables/blocks/warped_netherack.json",
+          "src/main/resources/assets/anomalies/models/block/warped_netherack.json",
+          "src/main/resources/assets/anomalies/models/item/warped_netherack.json",
+          "src/main/resources/assets/anomalies/blockstates/warped_netherack.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "WarpedPrecinct",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "warped_precinct",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/anomalies/worldgen/biome/warped_precinct.json"
+        ]
+      }
+    },
+    {
+      "name": "Netherrackironore",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherrackironore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/anomalies/forge/biome_modifier/netherrackironore_biome_modifier.json",
+          "src/main/resources/data/anomalies/loot_tables/blocks/netherrackironore.json",
+          "src/main/resources/assets/anomalies/models/block/netherrackironore.json",
+          "src/main/resources/data/anomalies/worldgen/configured_feature/netherrackironore.json",
+          "src/main/resources/assets/anomalies/blockstates/netherrackironore.json",
+          "src/main/resources/assets/anomalies/models/item/netherrackironore.json",
+          "src/main/java/net/mcreator/anomalies/block/NetherrackironoreBlock.java",
+          "src/main/resources/data/anomalies/worldgen/placed_feature/netherrackironore.json"
+        ]
+      },
+      "path": "~/Vanilla Misc/Blocks"
+    },
+    {
+      "name": "NetherrackGoldOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherrack_gold_ore",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/anomalies/block/NetherrackGoldOreBlock.java",
+          "src/main/resources/assets/anomalies/models/item/netherrack_gold_ore.json",
+          "src/main/resources/assets/anomalies/models/block/netherrack_gold_ore.json",
+          "src/main/resources/data/anomalies/worldgen/placed_feature/netherrack_gold_ore.json",
+          "src/main/resources/data/anomalies/loot_tables/blocks/netherrack_gold_ore.json",
+          "src/main/resources/assets/anomalies/blockstates/netherrack_gold_ore.json",
+          "src/main/resources/data/anomalies/forge/biome_modifier/netherrack_gold_ore_biome_modifier.json",
+          "src/main/resources/data/anomalies/worldgen/configured_feature/netherrack_gold_ore.json"
+        ]
+      },
+      "path": "~/Vanilla Misc/Blocks"
+    },
+    {
+      "name": "NetherrackLapisOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherrack_lapis_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/anomalies/loot_tables/blocks/netherrack_lapis_ore.json",
+          "src/main/resources/data/anomalies/forge/biome_modifier/netherrack_lapis_ore_biome_modifier.json",
+          "src/main/resources/assets/anomalies/models/block/netherrack_lapis_ore.json",
+          "src/main/resources/data/anomalies/worldgen/placed_feature/netherrack_lapis_ore.json",
+          "src/main/resources/assets/anomalies/models/item/netherrack_lapis_ore.json",
+          "src/main/resources/assets/anomalies/blockstates/netherrack_lapis_ore.json",
+          "src/main/java/net/mcreator/anomalies/block/NetherrackLapisOreBlock.java",
+          "src/main/resources/data/anomalies/worldgen/configured_feature/netherrack_lapis_ore.json"
+        ]
+      },
+      "path": "~/Vanilla Misc/Blocks"
+    },
+    {
+      "name": "GentlemanPainting",
+      "type": "painting",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gentleman_painting",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "WarpedPricinpleFoundAchievement",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "warped_pricinple_found_achievement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/anomalies/advancements/warped_pricinple_found_achievement.json"
+        ]
+      }
+    },
+    {
+      "name": "BuildingLoottable1",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "building_loottable_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/anomalies/loot_tables/chests/structures_loot_table_common.json"
+        ]
+      },
+      "path": "~/Loot Tables"
+    },
+    {
+      "name": "SmallHut",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "small_hut",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/anomalies/worldgen/template_pool/small_hut.json",
+          "src/main/resources/data/anomalies/worldgen/structure/small_hut.json",
+          "src/main/resources/data/anomalies/worldgen/structure_set/small_hut.json"
+        ]
+      },
+      "path": "~/Structures"
+    },
+    {
+      "name": "ResiduousLoner",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "residuous_loner",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/anomalies/entity/ResiduousLonerEntity.java",
+          "src/main/resources/data/anomalies/forge/biome_modifier/residuous_loner_biome_modifier.json",
+          "src/main/java/net/mcreator/anomalies/client/renderer/ResiduousLonerRenderer.java",
+          "src/main/resources/assets/anomalies/models/item/residuous_loner_spawn_egg.json"
+        ]
+      }
+    },
+    {
+      "name": "Olivine",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "olivine",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/anomalies/item/OlivineItem.java",
+          "src/main/resources/assets/anomalies/models/item/olivine.json"
+        ]
+      },
+      "path": "~/Packs/Olivine"
+    },
+    {
+      "name": "OlivineOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "olivine_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/anomalies/loot_tables/blocks/olivine_ore.json",
+          "src/main/resources/assets/anomalies/blockstates/olivine_ore.json",
+          "src/main/resources/data/anomalies/forge/biome_modifier/olivine_ore_biome_modifier.json",
+          "src/main/java/net/mcreator/anomalies/block/OlivineOreBlock.java",
+          "src/main/resources/data/anomalies/worldgen/configured_feature/olivine_ore.json",
+          "src/main/resources/assets/anomalies/models/item/olivine_ore.json",
+          "src/main/resources/data/anomalies/worldgen/placed_feature/olivine_ore.json",
+          "src/main/resources/assets/anomalies/models/block/olivine_ore.json"
+        ]
+      },
+      "path": "~/Packs/Olivine"
+    },
+    {
+      "name": "OlivineBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "olivine_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/anomalies/block/OlivineBlockBlock.java",
+          "src/main/resources/assets/anomalies/models/block/olivine_block.json",
+          "src/main/resources/data/anomalies/loot_tables/blocks/olivine_block.json",
+          "src/main/resources/assets/anomalies/blockstates/olivine_block.json",
+          "src/main/resources/assets/anomalies/models/item/olivine_block.json"
+        ]
+      },
+      "path": "~/Packs/Olivine"
+    },
+    {
+      "name": "OlivineOreBlockRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "olivine_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/anomalies/recipes/olivine_ore_block_recipe.json",
+          "src/main/resources/data/anomalies/advancements/recipes/olivine_ore_block_recipe.json"
+        ]
+      },
+      "path": "~/Packs/Olivine"
+    },
+    {
+      "name": "OlivineBlockOreRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "olivine_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/anomalies/recipes/olivine_block_ore_recipe.json",
+          "src/main/resources/data/anomalies/advancements/recipes/olivine_block_ore_recipe.json"
+        ]
+      },
+      "path": "~/Packs/Olivine"
+    },
+    {
+      "name": "OlivineOreSmelting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "olivine_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/anomalies/advancements/recipes/olivine_ore_smelting.json",
+          "src/main/resources/data/anomalies/recipes/olivine_ore_smelting.json"
+        ]
+      },
+      "path": "~/Packs/Olivine"
+    },
+    {
+      "name": "OlivinePickaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "olivine_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/anomalies/item/OlivinePickaxeItem.java",
+          "src/main/resources/assets/anomalies/models/item/olivine_pickaxe.json"
+        ]
+      },
+      "path": "~/Packs/Olivine"
+    },
+    {
+      "name": "OlivineAxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "olivine_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/anomalies/models/item/olivine_axe.json",
+          "src/main/java/net/mcreator/anomalies/item/OlivineAxeItem.java"
+        ]
+      },
+      "path": "~/Packs/Olivine"
+    },
+    {
+      "name": "OlivineSword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "olivine_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/anomalies/item/OlivineSwordItem.java",
+          "src/main/resources/assets/anomalies/models/item/olivine_sword.json"
+        ]
+      },
+      "path": "~/Packs/Olivine"
+    },
+    {
+      "name": "OlivineShovel",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "olivine_shovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/anomalies/models/item/olivine_shovel.json",
+          "src/main/java/net/mcreator/anomalies/item/OlivineShovelItem.java"
+        ]
+      },
+      "path": "~/Packs/Olivine"
+    },
+    {
+      "name": "OlivineHoe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "olivine_hoe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/anomalies/item/OlivineHoeItem.java",
+          "src/main/resources/assets/anomalies/models/item/olivine_hoe.json"
+        ]
+      },
+      "path": "~/Packs/Olivine"
+    },
+    {
+      "name": "OlivinePickaxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "olivine_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/anomalies/recipes/olivine_pickaxe_recipe.json",
+          "src/main/resources/data/anomalies/advancements/recipes/olivine_pickaxe_recipe.json"
+        ]
+      },
+      "path": "~/Packs/Olivine"
+    },
+    {
+      "name": "OlivineAxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "olivine_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/anomalies/recipes/olivine_axe_recipe.json",
+          "src/main/resources/data/anomalies/advancements/recipes/olivine_axe_recipe.json"
+        ]
+      },
+      "path": "~/Packs/Olivine"
+    },
+    {
+      "name": "OlivineSwordRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "olivine_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/anomalies/recipes/olivine_sword_recipe.json",
+          "src/main/resources/data/anomalies/advancements/recipes/olivine_sword_recipe.json"
+        ]
+      },
+      "path": "~/Packs/Olivine"
+    },
+    {
+      "name": "OlivineShovelRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "olivine_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/anomalies/advancements/recipes/olivine_shovel_recipe.json",
+          "src/main/resources/data/anomalies/recipes/olivine_shovel_recipe.json"
+        ]
+      },
+      "path": "~/Packs/Olivine"
+    },
+    {
+      "name": "OlivineHoeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "olivine_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/anomalies/recipes/olivine_hoe_recipe.json",
+          "src/main/resources/data/anomalies/advancements/recipes/olivine_hoe_recipe.json"
+        ]
+      },
+      "path": "~/Packs/Olivine"
+    },
+    {
+      "name": "OlivineArmor",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "olivine_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/anomalies/models/item/olivine_armor_helmet.json",
+          "src/main/resources/assets/anomalies/models/item/olivine_armor_chestplate.json",
+          "src/main/java/net/mcreator/anomalies/item/OlivineArmorItem.java",
+          "src/main/resources/assets/anomalies/models/item/olivine_armor_leggings.json",
+          "src/main/resources/assets/anomalies/models/item/olivine_armor_boots.json"
+        ]
+      },
+      "path": "~/Packs/Olivine"
+    },
+    {
+      "name": "OlivineArmorHelmetRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "olivine_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/anomalies/recipes/olivine_armor_helmet_recipe.json",
+          "src/main/resources/data/anomalies/advancements/recipes/olivine_armor_helmet_recipe.json"
+        ]
+      },
+      "path": "~/Packs/Olivine"
+    },
+    {
+      "name": "OlivineArmorChestplateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "olivine_armor_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/anomalies/advancements/recipes/olivine_armor_chestplate_recipe.json",
+          "src/main/resources/data/anomalies/recipes/olivine_armor_chestplate_recipe.json"
+        ]
+      },
+      "path": "~/Packs/Olivine"
+    },
+    {
+      "name": "OlivineArmorLeggingsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "olivine_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/anomalies/advancements/recipes/olivine_armor_leggings_recipe.json",
+          "src/main/resources/data/anomalies/recipes/olivine_armor_leggings_recipe.json"
+        ]
+      },
+      "path": "~/Packs/Olivine"
+    },
+    {
+      "name": "OlivineArmorBootsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "olivine_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/anomalies/recipes/olivine_armor_boots_recipe.json",
+          "src/main/resources/data/anomalies/advancements/recipes/olivine_armor_boots_recipe.json"
+        ]
+      },
+      "path": "~/Packs/Olivine"
+    },
+    {
+      "name": "TorvineAlloyRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "torvine_alloy_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/anomalies/procedures/TorvineAlloyRightclickedProcedure.java"
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "TorvineAlloy",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "torvine_alloy",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/anomalies/models/item/torvine_alloy.json",
+          "src/main/java/net/mcreator/anomalies/item/TorvineAlloyItem.java"
+        ]
+      },
+      "path": "~/Packs/Torvine"
+    },
+    {
+      "name": "Torvinealloyrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "torvinealloyrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/anomalies/advancements/recipes/torvinealloyrecipe.json",
+          "src/main/resources/data/anomalies/recipes/torvinealloyrecipe.json"
+        ]
+      },
+      "path": "~/Packs/Torvine"
+    },
+    {
+      "name": "TorvinePickaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "torvine_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/anomalies/models/item/torvine_pickaxe.json",
+          "src/main/java/net/mcreator/anomalies/item/TorvinePickaxeItem.java"
+        ]
+      },
+      "path": "~/Packs/Torvine"
+    },
+    {
+      "name": "TorvineAxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "torvine_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/anomalies/models/item/torvine_axe.json",
+          "src/main/java/net/mcreator/anomalies/item/TorvineAxeItem.java"
+        ]
+      },
+      "path": "~/Packs/Torvine"
+    },
+    {
+      "name": "TorvineSword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "torvine_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/anomalies/item/TorvineSwordItem.java",
+          "src/main/resources/assets/anomalies/models/item/torvine_sword.json"
+        ]
+      },
+      "path": "~/Packs/Torvine"
+    },
+    {
+      "name": "TorvineShovel",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "torvine_shovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/anomalies/models/item/torvine_shovel.json",
+          "src/main/java/net/mcreator/anomalies/item/TorvineShovelItem.java"
+        ]
+      },
+      "path": "~/Packs/Torvine"
+    },
+    {
+      "name": "TorvineHoe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "torvine_hoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/anomalies/models/item/torvine_hoe.json",
+          "src/main/java/net/mcreator/anomalies/item/TorvineHoeItem.java"
+        ]
+      },
+      "path": "~/Packs/Torvine"
+    },
+    {
+      "name": "TorvinePickaxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "torvine_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/anomalies/recipes/torvine_pickaxe_recipe.json",
+          "src/main/resources/data/anomalies/advancements/recipes/torvine_pickaxe_recipe.json"
+        ]
+      },
+      "path": "~/Packs/Torvine"
+    },
+    {
+      "name": "TorvineAxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "torvine_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/anomalies/recipes/torvine_axe_recipe.json",
+          "src/main/resources/data/anomalies/advancements/recipes/torvine_axe_recipe.json"
+        ]
+      },
+      "path": "~/Packs/Torvine"
+    },
+    {
+      "name": "TorvineSwordRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "torvine_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/anomalies/advancements/recipes/torvine_sword_recipe.json",
+          "src/main/resources/data/anomalies/recipes/torvine_sword_recipe.json"
+        ]
+      },
+      "path": "~/Packs/Torvine"
+    },
+    {
+      "name": "TorvineShovelRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "torvine_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/anomalies/advancements/recipes/torvine_shovel_recipe.json",
+          "src/main/resources/data/anomalies/recipes/torvine_shovel_recipe.json"
+        ]
+      },
+      "path": "~/Packs/Torvine"
+    },
+    {
+      "name": "TorvineHoeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "torvine_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/anomalies/recipes/torvine_hoe_recipe.json",
+          "src/main/resources/data/anomalies/advancements/recipes/torvine_hoe_recipe.json"
+        ]
+      },
+      "path": "~/Packs/Torvine"
+    },
+    {
+      "name": "TorvineArmor",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "torvine_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/anomalies/models/item/torvine_armor_chestplate.json",
+          "src/main/java/net/mcreator/anomalies/item/TorvineArmorItem.java",
+          "src/main/resources/assets/anomalies/models/item/torvine_armor_helmet.json",
+          "src/main/resources/assets/anomalies/models/item/torvine_armor_boots.json",
+          "src/main/resources/assets/anomalies/models/item/torvine_armor_leggings.json"
+        ]
+      },
+      "path": "~/Packs/Torvine"
+    },
+    {
+      "name": "TorvineArmorHelmetRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "torvine_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/anomalies/advancements/recipes/torvine_armor_helmet_recipe.json",
+          "src/main/resources/data/anomalies/recipes/torvine_armor_helmet_recipe.json"
+        ]
+      },
+      "path": "~/Packs/Torvine"
+    },
+    {
+      "name": "TorvineArmorChestplateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "torvine_armor_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/anomalies/recipes/torvine_armor_chestplate_recipe.json",
+          "src/main/resources/data/anomalies/advancements/recipes/torvine_armor_chestplate_recipe.json"
+        ]
+      },
+      "path": "~/Packs/Torvine"
+    },
+    {
+      "name": "TorvineArmorLeggingsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "torvine_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/anomalies/advancements/recipes/torvine_armor_leggings_recipe.json",
+          "src/main/resources/data/anomalies/recipes/torvine_armor_leggings_recipe.json"
+        ]
+      },
+      "path": "~/Packs/Torvine"
+    },
+    {
+      "name": "TorvineArmorBootsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "torvine_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/anomalies/recipes/torvine_armor_boots_recipe.json",
+          "src/main/resources/data/anomalies/advancements/recipes/torvine_armor_boots_recipe.json"
+        ]
+      },
+      "path": "~/Packs/Torvine"
+    },
+    {
+      "name": "TorvineBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "torvine_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/anomalies/models/block/torvine_block.json",
+          "src/main/resources/data/anomalies/loot_tables/blocks/torvine_block.json",
+          "src/main/resources/assets/anomalies/blockstates/torvine_block.json",
+          "src/main/resources/assets/anomalies/models/item/torvine_block.json",
+          "src/main/java/net/mcreator/anomalies/block/TorvineBlockBlock.java"
+        ]
+      },
+      "path": "~/Packs/Torvine"
+    },
+    {
+      "name": "TovineBlockRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tovine_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/anomalies/recipes/tovine_block_recipe.json",
+          "src/main/resources/data/anomalies/advancements/recipes/tovine_block_recipe.json"
+        ]
+      },
+      "path": "~/Packs/Torvine"
+    },
+    {
+      "name": "TorvineBlockUncraftRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "torvine_block_uncraft_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/anomalies/recipes/torvine_block_uncraft_recipe.json",
+          "src/main/resources/data/anomalies/advancements/recipes/torvine_block_uncraft_recipe.json"
+        ]
+      },
+      "path": "~/Packs/Torvine"
+    },
+    {
+      "name": "TechBunkerLootTable",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tech_bunker_loot_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/anomalies/loot_tables/chests/tech_bunker_loot_table.json"
+        ]
+      },
+      "path": "~/Loot Tables"
+    },
+    {
+      "name": "ArmoryBunkerLootTable",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "armory_bunker_loot_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/anomalies/loot_tables/chests/armory_bunker.json"
+        ]
+      },
+      "path": "~/Loot Tables"
+    },
+    {
+      "name": "Bunker1",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bunker_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/anomalies/worldgen/structure_set/bunker_1.json",
+          "src/main/resources/data/anomalies/worldgen/structure/bunker_1.json",
+          "src/main/resources/data/anomalies/worldgen/template_pool/bunker_1.json"
+        ]
+      },
+      "path": "~/Structures"
+    },
+    {
+      "name": "Bunker2",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bunker_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/anomalies/worldgen/template_pool/bunker_2.json",
+          "src/main/resources/data/anomalies/worldgen/structure/bunker_2.json",
+          "src/main/resources/data/anomalies/worldgen/structure_set/bunker_2.json"
+        ]
+      },
+      "path": "~/Structures"
+    },
+    {
+      "name": "ResiduousLonerSprintPlaybackCondition",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "residuous_loner_sprint_playback_condition",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/anomalies/procedures/ResiduousLonerSprintPlaybackConditionProcedure.java"
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "ResiduousLonerIdlePlaybackCondition",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "residuous_loner_idle_playback_condition",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/anomalies/procedures/ResiduousLonerIdlePlaybackConditionProcedure.java"
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "ResiduousLonerAttackPlaybackCondition",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "residuous_loner_attack_playback_condition",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/anomalies/procedures/ResiduousLonerAttackPlaybackConditionProcedure.java"
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "CoalCokeBlockExtention",
+      "type": "itemextension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coal_coke_block_extention",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "Darkenedwoodladder",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkenedwoodladder",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/anomalies/models/block/darkenedwoodladder.json",
+          "src/main/resources/data/anomalies/loot_tables/blocks/darkenedwoodladder.json",
+          "src/main/resources/assets/anomalies/models/item/darkenedwoodladder.json",
+          "src/main/resources/assets/anomalies/blockstates/darkenedwoodladder.json",
+          "src/main/java/net/mcreator/anomalies/block/DarkenedwoodladderBlock.java"
+        ]
+      },
+      "path": "~/Packs/Darkened_Wood_"
+    },
+    {
+      "name": "PureAmethystBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pure_amethyst_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/anomalies/blockstates/pure_amethyst_block.json",
+          "src/main/resources/assets/anomalies/models/item/pure_amethyst_block.json",
+          "src/main/resources/data/anomalies/loot_tables/blocks/pure_amethyst_block.json",
+          "src/main/java/net/mcreator/anomalies/block/PureAmethystBlockBlock.java",
+          "src/main/resources/assets/anomalies/models/block/pure_amethyst_block.json"
+        ]
+      },
+      "path": "~/Vanilla Misc/Blocks"
+    },
+    {
+      "name": "DarkenedChestGUI",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkened_chest_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/anomalies/world/inventory/DarkenedChestGUIMenu.java",
+          "src/main/java/net/mcreator/anomalies/client/gui/DarkenedChestGUIScreen.java"
+        ]
+      },
+      "path": "~/GUIs"
+    },
+    {
+      "name": "DarkenedChest",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkened_chest",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/anomalies/block/DarkenedChestBlock.java",
+          "src/main/resources/assets/anomalies/blockstates/darkened_chest.json",
+          "src/main/resources/data/anomalies/loot_tables/blocks/darkened_chest.json",
+          "src/main/resources/assets/anomalies/models/item/darkened_chest.json",
+          "src/main/java/net/mcreator/anomalies/block/entity/DarkenedChestBlockEntity.java",
+          "src/main/resources/assets/anomalies/models/block/darkened_chest.json"
+        ]
+      },
+      "path": "~/Packs/Darkened_Wood_"
+    },
+    {
+      "name": "StructureFinderRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "structure_finder_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/anomalies/procedures/StructureFinderRightclickedProcedure.java"
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "StructureFinder",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "structure_finder",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/anomalies/models/item/structure_finder.json",
+          "src/main/java/net/mcreator/anomalies/item/StructureFinderItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "StructureFinderGUI",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "structure_finder_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/anomalies/client/gui/StructureFinderGUIScreen.java",
+          "src/main/java/net/mcreator/anomalies/network/StructureFinderGUIButtonMessage.java",
+          "src/main/java/net/mcreator/anomalies/world/inventory/StructureFinderGUIMenu.java"
+        ]
+      },
+      "path": "~/GUIs"
+    },
+    {
+      "name": "StructureFinderGUIButtonPress",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "structure_finder_gui_button_press",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/anomalies/procedures/StructureFinderGUIButtonPressProcedure.java"
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "StructureFinderRightclicked2",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "structure_finder_rightclicked_2",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/anomalies/procedures/StructureFinderRightclicked2Procedure.java"
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "StructureFinderRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "structure_finder_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/anomalies/recipes/structure_finder_recipe.json",
+          "src/main/resources/data/anomalies/advancements/recipes/structure_finder_recipe.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "Smallhut2",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smallhut_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/anomalies/worldgen/structure_set/smallhut_2.json",
+          "src/main/resources/data/anomalies/worldgen/structure/smallhut_2.json",
+          "src/main/resources/data/anomalies/worldgen/template_pool/smallhut_2.json"
+        ]
+      },
+      "path": "~/Structures"
+    },
+    {
+      "name": "NetherLootTable",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nether_loot_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/anomalies/loot_tables/chests/nether_tower.json"
+        ]
+      },
+      "path": "~/Loot Tables"
+    },
+    {
+      "name": "NetherTowerSmall",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nether_tower_small",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/anomalies/worldgen/structure/nether_tower_small.json",
+          "src/main/resources/data/anomalies/worldgen/structure_set/nether_tower_small.json",
+          "src/main/resources/data/anomalies/worldgen/template_pool/nether_tower_small.json"
+        ]
+      },
+      "path": "~/Structures"
+    },
+    {
+      "name": "DarkenedTree1",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkened_tree_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/anomalies/forge/biome_modifier/darkened_tree_1_biome_modifier.json",
+          "src/main/resources/data/anomalies/worldgen/configured_feature/darkened_tree_1.json",
+          "src/main/resources/data/anomalies/worldgen/placed_feature/darkened_tree_1.json"
+        ]
+      },
+      "path": "~/Packs/Darkened_Wood_"
+    },
+    {
+      "name": "DarkenedWoodExtention",
+      "type": "itemextension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkened_wood_extention",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Packs/Darkened_Wood_"
+    },
+    {
+      "name": "DarkenedWoodExtention2",
+      "type": "itemextension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkened_wood_extention_2",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Packs/Darkened_Wood_"
+    },
+    {
+      "name": "DarkenedPlanksExtention",
+      "type": "itemextension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkened_planks_extention",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Packs/Darkened_Wood_"
+    },
+    {
+      "name": "DarkenedStairsExtention",
+      "type": "itemextension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkened_stairs_extention",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Packs/Darkened_Wood_"
+    },
+    {
+      "name": "DarkenedSlabExtention",
+      "type": "itemextension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkened_slab_extention",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Packs/Darkened_Wood_"
+    },
+    {
+      "name": "DarkenedFenceExtention",
+      "type": "itemextension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkened_fence_extention",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Packs/Darkened_Wood_"
+    },
+    {
+      "name": "DarkenedFenceGateExtention",
+      "type": "itemextension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkened_fence_gate_extention",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Packs/Darkened_Wood_"
+    },
+    {
+      "name": "DarkenedPressurePlateExtention",
+      "type": "itemextension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkened_pressure_plate_extention",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Packs/Darkened_Wood_"
+    },
+    {
+      "name": "DarkenedButtonExtention",
+      "type": "itemextension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkened_button_extention",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Packs/Darkened_Wood_"
+    },
+    {
+      "name": "ResidentualBunkerLootTable",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "residentual_bunker_loot_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/anomalies/loot_tables/chests/residentual_bunker.json"
+        ]
+      },
+      "path": "~/Loot Tables"
+    },
+    {
+      "name": "ResidentualBunker",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "residentual_bunker",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/anomalies/worldgen/structure_set/residentual_bunker.json",
+          "src/main/resources/data/anomalies/worldgen/template_pool/residentual_bunker_rb_pool.json",
+          "src/main/resources/data/anomalies/worldgen/template_pool/residentual_bunker.json",
+          "src/main/resources/data/anomalies/worldgen/structure/residentual_bunker.json"
+        ]
+      },
+      "path": "~/Structures"
+    },
+    {
+      "name": "Darkenedladderrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkenedladderrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/anomalies/recipes/darkenedladderrecipe.json",
+          "src/main/resources/data/anomalies/advancements/recipes/darkenedladderrecipe.json"
+        ]
+      },
+      "path": "~/Packs/Darkened_Wood_"
+    },
+    {
+      "name": "Darkenedbarrelrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkenedbarrelrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/anomalies/recipes/darkenedbarrelrecipe.json",
+          "src/main/resources/data/anomalies/advancements/recipes/darkenedbarrelrecipe.json"
+        ]
+      },
+      "path": "~/Packs/Darkened_Wood_"
+    },
+    {
+      "name": "Logo",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "logo",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/anomalies/item/LogoItem.java",
+          "src/main/resources/assets/anomalies/models/item/logo.json"
+        ]
+      },
+      "path": "~/Items"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {
+    "BIOMES:minecraft:has_structure/mineshaft": [
+      "~CUSTOM:Darken"
+    ],
+    "BIOMES:minecraft:has_structure/buried_treasure": [
+      "~CUSTOM:Darken"
+    ],
+    "BIOMES:minecraft:has_structure/nether_fossil": [
+      "~CUSTOM:WarpedPrecinct",
+      "~CUSTOM:Darken"
+    ],
+    "BIOMES:minecraft:has_structure/ruined_portal_mountain": [
+      "~CUSTOM:Darken"
+    ],
+    "BLOCKS:minecraft:mineable/shovel": [
+      "~CUSTOM:DarkenedDirt",
+      "~CUSTOM:DarkenedGrass"
+    ],
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:PureAmethystBlock",
+      "~CUSTOM:TorvineBlock",
+      "~CUSTOM:OlivineBlock",
+      "~CUSTOM:OlivineOre",
+      "~CUSTOM:NetherrackLapisOre",
+      "~CUSTOM:NetherrackGoldOre",
+      "~CUSTOM:Netherrackironore",
+      "~CUSTOM:WarpedNetherack",
+      "~CUSTOM:CoalCokeBlock",
+      "~CUSTOM:SteelBlock",
+      "~CUSTOM:DeepslateTordoliteOre",
+      "~CUSTOM:TordoliteBlock",
+      "~CUSTOM:TordoliteOre",
+      "~CUSTOM:Jumplum",
+      "~CUSTOM:Limestone",
+      "~CUSTOM:Speedlum"
+    ],
+    "ITEMS:furnace:furnace/fuel": [
+      "Items.COAL#0",
+      "Items.COAL#1",
+      "Items.LAVA_BUCKET",
+      "Blocks.DRIED_KELP_BLOCK",
+      "Blocks.COAL_BLOCK",
+      "Items.BLAZE_ROD"
+    ],
+    "ITEMS:furnace:furnace/recipe_item": [
+      "Items.COAL#0",
+      "Items.COAL#1"
+    ],
+    "BLOCKS:minecraft:logs_that_burn": [
+      "TAG:mod:darkened_wooden_logs"
+    ],
+    "ITEMS:minecraft:logs_that_burn": [
+      "TAG:mod:darkened_wooden_logs"
+    ],
+    "BLOCKS:minecraft:mineable/axe": [
+      "~CUSTOM:DarkenedChest",
+      "~CUSTOM:Darkenedwoodladder",
+      "~CUSTOM:DarkenedWoodDoor",
+      "~CUSTOM:Darkened_Wooden_Button",
+      "~CUSTOM:Darkened_Wooden_PressurePlate",
+      "~CUSTOM:Darkened_Wooden_FenceGate",
+      "~CUSTOM:Darkened_Wooden_Fence",
+      "~CUSTOM:Darkened_Wooden_Slab",
+      "~CUSTOM:Darkened_Wooden_Stairs",
+      "~CUSTOM:Darkened_Wooden_Planks",
+      "~CUSTOM:Darkened_Wooden_Wood",
+      "~CUSTOM:Darkened_Wooden_Log"
+    ],
+    "BLOCKS:minecraft:leaves": [
+      "~CUSTOM:Darkened_Wooden_Leaves"
+    ],
+    "BLOCKS:minecraft:stairs": [
+      "~CUSTOM:Darkened_Wooden_Stairs"
+    ],
+    "BLOCKS:minecraft:slabs": [
+      "~CUSTOM:Darkened_Wooden_Slab"
+    ],
+    "BLOCKS:minecraft:wooden_fences": [
+      "~CUSTOM:Darkened_Wooden_Fence"
+    ],
+    "BLOCKS:mod:darkened_wooden_logs": [
+      "CUSTOM:Darkened_Wooden_Log",
+      "CUSTOM:Darkened_Wooden_Wood",
+      "CUSTOM:DarkenedWood"
+    ],
+    "ITEMS:mod:darkened_wooden_logs": [
+      "CUSTOM:Darkened_Wooden_Log",
+      "CUSTOM:Darkened_Wooden_Wood",
+      "CUSTOM:DarkenedWood"
+    ],
+    "ITEMS:minecraft:pickaxes": [
+      "~CUSTOM:TorvinePickaxe",
+      "~CUSTOM:OlivinePickaxe",
+      "~CUSTOM:TordolitePickaxe",
+      "~CUSTOM:AmethystPickaxe",
+      "~CUSTOM:SteelPickaxe",
+      "~CUSTOM:Darkened_Tool_Pickaxe"
+    ],
+    "ITEMS:minecraft:axes": [
+      "~CUSTOM:TorvineAxe",
+      "~CUSTOM:OlivineAxe",
+      "~CUSTOM:TordoliteAxe",
+      "~CUSTOM:AmethystAxe",
+      "~CUSTOM:SteelAxe",
+      "~CUSTOM:Darkened_Tool_Axe"
+    ],
+    "ITEMS:minecraft:swords": [
+      "~CUSTOM:TorvineSword",
+      "~CUSTOM:OlivineSword",
+      "~CUSTOM:TordoliteSword",
+      "~CUSTOM:AmethystSword",
+      "~CUSTOM:SteelSword",
+      "~CUSTOM:GoldDagger",
+      "~CUSTOM:DiamondDagger",
+      "~CUSTOM:StoneDagger",
+      "~CUSTOM:IronDagger",
+      "~CUSTOM:WoodenDagger",
+      "~CUSTOM:Darkened_Tool_Sword"
+    ],
+    "ITEMS:minecraft:shovels": [
+      "~CUSTOM:TorvineShovel",
+      "~CUSTOM:OlivineShovel",
+      "~CUSTOM:TordoliteShovel",
+      "~CUSTOM:AmethystShovel",
+      "~CUSTOM:SteelShovel",
+      "~CUSTOM:Darkened_Tool_Shovel"
+    ],
+    "ITEMS:minecraft:hoes": [
+      "~CUSTOM:TorvineHoe",
+      "~CUSTOM:OlivineHoe",
+      "~CUSTOM:TordoliteHoe",
+      "~CUSTOM:AmethystHoe",
+      "~CUSTOM:SteelHoe",
+      "~CUSTOM:Darkened_Tool_Hoe"
+    ],
+    "ITEMS:mod:planks": [
+      "CUSTOM:Darkened_Wooden_Planks"
+    ],
+    "BLOCKS:mod:planks": [
+      "CUSTOM:Darkened_Wooden_Planks"
+    ],
+    "BLOCKS:minecraft:needs_stone_tool": [
+      "~CUSTOM:PureAmethystBlock",
+      "~CUSTOM:Netherrackironore",
+      "~CUSTOM:CoalCokeBlock",
+      "~CUSTOM:Jumplum",
+      "~CUSTOM:Speedlum"
+    ],
+    "ITEMS:mod:vanillamisc": [
+      "CUSTOM:Oak_Armor.helmet",
+      "CUSTOM:Oak_Armor.body",
+      "CUSTOM:Oak_Armor.legs",
+      "CUSTOM:Oak_Armor.boots",
+      "CUSTOM:WoodenDagger",
+      "CUSTOM:IronDagger",
+      "CUSTOM:StoneDagger",
+      "CUSTOM:DiamondDagger",
+      "CUSTOM:GoldDagger",
+      "CUSTOM:AmethystArmor.legs",
+      "CUSTOM:AmethystArmor.boots",
+      "CUSTOM:PureAmethyst",
+      "CUSTOM:AmethystPickaxe",
+      "CUSTOM:AmethystAxe",
+      "CUSTOM:AmethystSword",
+      "CUSTOM:AmethystShovel",
+      "CUSTOM:AmethystHoe",
+      "CUSTOM:AmethystArmor.helmet",
+      "CUSTOM:AmethystArmor.body",
+      "CUSTOM:PureAmethystBlock",
+      "CUSTOM:Netherrackironore",
+      "CUSTOM:NetherrackGoldOre",
+      "CUSTOM:NetherrackLapisOre"
+    ],
+    "BLOCKS:minecraft:needs_diamond_tool": [
+      "~CUSTOM:TorvineBlock",
+      "~CUSTOM:OlivineBlock",
+      "~CUSTOM:OlivineOre",
+      "~CUSTOM:DeepslateTordoliteOre",
+      "~CUSTOM:TordoliteBlock",
+      "~CUSTOM:TordoliteOre"
+    ],
+    "BLOCKS:minecraft:needs_iron_tool": [
+      "~CUSTOM:NetherrackLapisOre",
+      "~CUSTOM:NetherrackGoldOre",
+      "~CUSTOM:SteelBlock"
+    ],
+    "BIOMES:minecraft:has_structure/ruined_portal_nether": [
+      "~CUSTOM:WarpedPrecinct"
+    ],
+    "BLOCKS:mod:saplings/liquids": [
+      "Blocks.WATER",
+      "Blocks.BUBBLE_COLUMN",
+      "Blocks.LAVA"
+    ]
+  },
+  "tab_element_order": {
+    "CUSTOM:Anomalies": [
+      "DarkenedGrass",
+      "DarkenedDirt",
+      "WarpedNetherack",
+      "Darkened_Wooden_Log",
+      "Darkened_Wooden_Wood",
+      "Darkened_Wooden_Planks",
+      "Darkened_Wooden_Leaves",
+      "Darkened_Wooden_Stairs",
+      "Darkened_Wooden_Slab",
+      "Darkened_Wooden_Fence",
+      "Darkened_Wooden_FenceGate",
+      "Darkened_Wooden_PressurePlate",
+      "Darkened_Wooden_Button",
+      "Darkenedwoodladder",
+      "DarkenedChest",
+      "DarkenedWoodDoor",
+      "TordoliteBlock",
+      "SteelBlock",
+      "OlivineBlock",
+      "TorvineBlock",
+      "PureAmethystBlock",
+      "CoalCokeBlock",
+      "Speedlum",
+      "Jumplum",
+      "Limestone",
+      "Netherrackironore",
+      "NetherrackGoldOre",
+      "NetherrackLapisOre",
+      "TordoliteOre",
+      "DeepslateTordoliteOre",
+      "OlivineOre",
+      "StructureFinder",
+      "WoodenDagger",
+      "StoneDagger",
+      "GoldDagger",
+      "IronDagger",
+      "DiamondDagger",
+      "Darkened_Tool_Pickaxe",
+      "Darkened_Tool_Axe",
+      "Darkened_Tool_Sword",
+      "Darkened_Tool_Shovel",
+      "Darkened_Tool_Hoe",
+      "Oak_Armor",
+      "AmethystPickaxe",
+      "AmethystAxe",
+      "AmethystSword",
+      "AmethystShovel",
+      "AmethystHoe",
+      "AmethystArmor",
+      "SteelPickaxe",
+      "SteelAxe",
+      "SteelSword",
+      "SteelShovel",
+      "SteelHoe",
+      "SteelArmor",
+      "TordolitePickaxe",
+      "TordoliteAxe",
+      "TordoliteSword",
+      "TordoliteShovel",
+      "TordoliteHoe",
+      "TordoliteArmor",
+      "OlivinePickaxe",
+      "OlivineAxe",
+      "OlivineSword",
+      "OlivineShovel",
+      "OlivineHoe",
+      "OlivineArmor",
+      "TorvinePickaxe",
+      "TorvineAxe",
+      "TorvineSword",
+      "TorvineShovel",
+      "TorvineHoe",
+      "TorvineArmor",
+      "PeacockTail",
+      "TorvineAlloy",
+      "Tordolite",
+      "Olivine",
+      "SteelIngot",
+      "PureAmethyst",
+      "SteelMixture",
+      "CoalCoke",
+      "ResiduousLoner",
+      "TheConsumed"
+    ]
+  },
+  "language_map": {
+    "en_us": {
+      "effect.anomalies.darkened_effect": "Darkened",
+      "item_group.anomalies.anomalies": "Anomalies",
+      "biome.anomalies.darken": "Darken",
+      "block.anomalies.darkened_grass": "Darkened Grass",
+      "block.anomalies.darkened_dirt": "Darkened Dirt",
+      "block.anomalies.darkened_wooden_log": "Darkened Log",
+      "block.anomalies.darkened_wooden_wood": "Darkened Wood",
+      "block.anomalies.darkened_wooden_planks": "Darkened Planks",
+      "block.anomalies.darkened_wooden_leaves": "Darkened Leaves",
+      "block.anomalies.darkened_wooden_stairs": "Darkened Stairs",
+      "block.anomalies.darkened_wooden_slab": "Darkened Slab",
+      "block.anomalies.darkened_wooden_fence": "Darkened Fence",
+      "block.anomalies.darkened_wooden_fence_gate": "Darkened Fence Gate",
+      "block.anomalies.darkened_wooden_pressure_plate": "Darkened Pressure Plate",
+      "block.anomalies.darkened_wooden_button": "Darkened Button",
+      "block.anomalies.darkened_wood_door": "Darkened Door",
+      "item.anomalies.darkened_tool_pickaxe": "Darkened Pickaxe",
+      "item.anomalies.darkened_tool_axe": "Darkened Axe",
+      "item.anomalies.darkened_tool_sword": "Darkened Sword",
+      "item.anomalies.darkened_tool_shovel": "Darkened Shovel",
+      "item.anomalies.darkened_tool_hoe": "Darkened Hoe",
+      "item.anomalies.oak_armor_helmet": "Oak Helmet",
+      "item.anomalies.oak_armor_chestplate": "Oak Chestplate",
+      "item.anomalies.oak_armor_leggings": "Oak Leggings",
+      "item.anomalies.oak_armor_boots": "Oak Boots",
+      "block.anomalies.speedlum": "Speedlum",
+      "item.anomalies.coal_coke": "Coal Coke",
+      "item.anomalies.steel_mixture": "Steel Mixture",
+      "block.anomalies.limestone": "Limestone",
+      "item.anomalies.wooden_dagger": "Wooden Dagger",
+      "item.anomalies.iron_dagger": "Iron Dagger",
+      "item.anomalies.stone_dagger": "Stone Dagger",
+      "item.anomalies.diamond_dagger": "Diamond Dagger",
+      "item.anomalies.gold_dagger": "Gold Dagger",
+      "item.anomalies.steel_ingot": "Steel Ingot",
+      "item.anomalies.steel_pickaxe": "Steel Pickaxe",
+      "item.anomalies.steel_axe": "Steel Axe",
+      "item.anomalies.steel_sword": "Steel Sword",
+      "item.anomalies.steel_shovel": "Steel Shovel",
+      "item.anomalies.steel_hoe": "Steel Hoe",
+      "item.anomalies.steel_armor_chestplate": "Steel Chestplate",
+      "item.anomalies.steel_armor_boots": "Steel Boots",
+      "item.anomalies.steel_armor_helmet": "Steel Helmet",
+      "item.anomalies.steel_armor_leggings": "Steel Leggings",
+      "advancements.darken_found_achievement.descr": "Find the Darken, a biome once normal, now in eternal darkness.",
+      "advancements.darken_found_achievement.title": "Forgotten",
+      "advancements.vanilla_misc_achievement.descr": "Acquire any new Vanilla type item",
+      "advancements.vanilla_misc_achievement.title": "An Upgrade",
+      "item.anomalies.pure_amethyst": "Pure Amethyst",
+      "item.anomalies.amethyst_pickaxe": "Amethyst Pickaxe",
+      "item.anomalies.amethyst_axe": "Amethyst Axe",
+      "item.anomalies.amethyst_sword": "Amethyst Sword",
+      "item.anomalies.amethyst_shovel": "Amethyst Shovel",
+      "item.anomalies.amethyst_hoe": "Amethyst Hoe",
+      "item.anomalies.amethyst_armor_boots": "Amethyst Boots",
+      "item.anomalies.amethyst_armor_chestplate": "Amethyst Chestplate",
+      "item.anomalies.amethyst_armor_leggings": "Amethyst Leggings",
+      "item.anomalies.amethyst_armor_helmet": "Amethyst Helmet",
+      "entity.anomalies.the_consumed": "The Consumed",
+      "item.anomalies.the_consumed_spawn_egg": "The Consumed Spawn Egg",
+      "block.anomalies.jumplum": "Jumplum",
+      "item.anomalies.peacock_tail_chestplate": "Peacock Tail",
+      "item.anomalies.tordolite": "Tordolite",
+      "block.anomalies.tordolite_ore": "Tordolite Ore",
+      "block.anomalies.tordolite_block": "Block of Tordolite",
+      "item.anomalies.tordolite_pickaxe": "Tordolite Pickaxe",
+      "item.anomalies.tordolite_axe": "Tordolite Axe",
+      "item.anomalies.tordolite_sword": "Tordolite Sword",
+      "item.anomalies.tordolite_shovel": "Tordolite Shovel",
+      "item.anomalies.tordolite_hoe": "Tordolite Hoe",
+      "item.anomalies.tordolite_armor_leggings": "Tordolite Leggings",
+      "item.anomalies.tordolite_armor_boots": "Tordolite Boots",
+      "item.anomalies.tordolite_armor_helmet": "Tordolite Helmet",
+      "item.anomalies.tordolite_armor_chestplate": "Tordolite Chestplate",
+      "block.anomalies.deepslate_tordolite_ore": "Deepslate Tordolite Ore",
+      "block.anomalies.steel_block": "Steel Block",
+      "block.anomalies.coal_coke_block": "Coal Coke Block",
+      "block.anomalies.warped_netherack": "Warped Netherrack",
+      "biome.anomalies.warped_precinct": "Warped Precinct",
+      "block.anomalies.netherrackironore": "Netherrack Iron Ore",
+      "block.anomalies.netherrack_gold_ore": "Netherrack Gold Ore",
+      "block.anomalies.netherrack_lapis_ore": "Netherrack Lapis Ore",
+      "painting.anomalies.gentleman_painting.title": "Gentleman",
+      "painting.anomalies.gentleman_painting.author": "Man",
+      "advancements.warped_pricinple_found_achievement.title": "Abandoned",
+      "advancements.warped_pricinple_found_achievement.descr": "Find the Warped Precinct, a territory used for research and experimentation.",
+      "item.anomalies.residuous_loner_spawn_egg": "Residuous Loner Spawn Egg",
+      "entity.anomalies.residuous_loner": "Residuous Loner",
+      "item.anomalies.olivine": "Olivine",
+      "block.anomalies.olivine_ore": "Olivine Ore",
+      "block.anomalies.olivine_block": "Block of Olivine",
+      "item.anomalies.olivine_pickaxe": "Olivine Pickaxe",
+      "item.anomalies.olivine_axe": "Olivine Axe",
+      "item.anomalies.olivine_sword": "Olivine Sword",
+      "item.anomalies.olivine_shovel": "Olivine Shovel",
+      "item.anomalies.olivine_hoe": "Olivine Hoe",
+      "item.anomalies.olivine_armor_helmet": "Olivine Helmet",
+      "item.anomalies.olivine_armor_boots": "Olivine Boots",
+      "item.anomalies.olivine_armor_chestplate": "Olivine Chestplate",
+      "item.anomalies.olivine_armor_leggings": "Olivine Leggings",
+      "item.anomalies.torvine_alloy": "Torvine Alloy",
+      "item.anomalies.torvine_pickaxe": "Torvine Pickaxe",
+      "item.anomalies.torvine_axe": "Torvine Axe",
+      "item.anomalies.torvine_sword": "Torvine Sword",
+      "item.anomalies.torvine_shovel": "Torvine Shovel",
+      "item.anomalies.torvine_hoe": "Torvine Hoe",
+      "item.anomalies.torvine_armor_boots": "Torvine Boots",
+      "item.anomalies.torvine_armor_helmet": "Torvine Helmet",
+      "item.anomalies.torvine_armor_chestplate": "Torvine Chestplate",
+      "item.anomalies.torvine_armor_leggings": "Torvine Leggings",
+      "block.anomalies.torvine_block": "Torvine Block",
+      "block.anomalies.darkenedwoodladder": "Darkened Ladder",
+      "block.anomalies.pure_amethyst_block": "Pure Amethyst Block",
+      "block.anomalies.darkened_chest": "Darkened Barrel",
+      "gui.anomalies.darkened_chest_gui.label_3776": "3776",
+      "gui.anomalies.darkened_chest_gui.label_0000": "0000",
+      "gui.anomalies.darkened_chest_gui.label_empty": "/",
+      "gui.anomalies.darkened_chest_gui.label_000": "000",
+      "gui.anomalies.darkened_chest_gui.label_0": "0",
+      "gui.anomalies.darkened_chest_gui.label_00": "00",
+      "gui.anomalies.darkened_chest_gui.label_darkened_barrel": "Darkened Barrel",
+      "item.anomalies.structure_finder": "Structure Finder",
+      "gui.anomalies.structure_finder_gui.button_left_button": "\u003c",
+      "gui.anomalies.structure_finder_gui.button_structure": "Structure",
+      "gui.anomalies.structure_finder_gui.button_empty": "\u003e",
+      "gui.anomalies.structure_finder_gui.button_right_button": "\u003e",
+      "gui.anomalies.structure_finder_gui.label_structure": "Choose Structure",
+      "gui.anomalies.structure_finder_gui.tooltip_input_tag_or_structure_name": "Input tag or structure name",
+      "gui.anomalies.structure_finder_gui.input": "Structure Name:",
+      "gui.anomalies.structure_finder_gui.button_find": "Find",
+      "item.anomalies.logo": "Logo"
+    },
+    "ru_ru": {
+      "effect.anomalies.darkened_effect": "Затемненый",
+      "item_group.anomalies.anomalies": "Аномалии",
+      "biome.anomalies.darken": "Тёмное",
+      "block.anomalies.darkened_grass": "Тёмная трава",
+      "block.anomalies.darkened_dirt": "Тёмная грязь",
+      "block.anomalies.darkened_wooden_log": "Тёмное бревно",
+      "block.anomalies.darkened_wooden_wood": "Тёмное дерево",
+      "block.anomalies.darkened_wooden_planks": "Тёмные доски",
+      "block.anomalies.darkened_wooden_leaves": "Тёмная листва",
+      "block.anomalies.darkened_wooden_stairs": "Тёмные ступеньки",
+      "block.anomalies.darkened_wooden_slab": "Тёмная плита",
+      "block.anomalies.darkened_wooden_fence": "Тёмный забор",
+      "block.anomalies.darkened_wooden_fence_gate": "Тёмные ворота",
+      "block.anomalies.darkened_wooden_pressure_plate": "Тёмная нажимная пластина",
+      "block.anomalies.darkened_wooden_button": "Тёмная кнопка",
+      "block.anomalies.darkened_wood_door": "Тёмная дверь",
+      "item.anomalies.darkened_tool_pickaxe": "Тёмная кирка",
+      "item.anomalies.darkened_tool_axe": "Тёмный топор",
+      "item.anomalies.darkened_tool_sword": "Тёмный меч",
+      "item.anomalies.darkened_tool_shovel": "Тёмная лопата",
+      "item.anomalies.darkened_tool_hoe": "Тёмная мотыга",
+      "item.anomalies.oak_armor_helmet": "Дубовый шлем",
+      "item.anomalies.oak_armor_chestplate": "Дубовый нагрудник",
+      "item.anomalies.oak_armor_leggings": "Дубовые поножи",
+      "item.anomalies.oak_armor_boots": "Дубовые сапоги",
+      "block.anomalies.speedlum": "Спидлум",
+      "item.anomalies.coal_coke": "Угольный кокс",
+      "item.anomalies.steel_mixture": "Стальная смесь",
+      "block.anomalies.limestone": "Известняк",
+      "item.anomalies.wooden_dagger": "Деревянный кинжал",
+      "item.anomalies.iron_dagger": "Железный кинжал",
+      "item.anomalies.stone_dagger": "Каменный кинжал",
+      "item.anomalies.diamond_dagger": "Алмазный кинжал",
+      "item.anomalies.gold_dagger": "Золотой кинжал",
+      "item.anomalies.steel_ingot": "Стальной слиток",
+      "item.anomalies.steel_pickaxe": "Стальная кирка",
+      "item.anomalies.steel_axe": "Стальной топор",
+      "item.anomalies.steel_sword": "Стальной меч",
+      "item.anomalies.steel_shovel": "Стальная лопата",
+      "item.anomalies.steel_hoe": "Стальная мотыга",
+      "item.anomalies.steel_armor_chestplate": "Стальной нагрудник",
+      "item.anomalies.steel_armor_boots": "Стальные сапоги",
+      "item.anomalies.steel_armor_helmet": "Стальной шлем",
+      "item.anomalies.steel_armor_leggings": "Стальные поножи",
+      "advancements.darken_found_achievement.descr": "Найдите Тёмное, биом, который когда-то был обычным, а теперь находится в вечной тьме.",
+      "advancements.darken_found_achievement.title": "Забытый",
+      "advancements.vanilla_misc_achievement.descr": "Найдите или зделайте любой новый предмет майнкрафт типа",
+      "advancements.vanilla_misc_achievement.title": "Апгрейд",
+      "item.anomalies.pure_amethyst": "Чистый аметист",
+      "item.anomalies.amethyst_pickaxe": "Аметистовая кирка",
+      "item.anomalies.amethyst_axe": "Аметистовый топор",
+      "item.anomalies.amethyst_sword": "Аметистовый меч",
+      "item.anomalies.amethyst_shovel": "Аметистовая лопата",
+      "item.anomalies.amethyst_hoe": "Аметистовая мотыга",
+      "item.anomalies.amethyst_armor_boots": "Сапоги из аметиста",
+      "item.anomalies.amethyst_armor_chestplate": "Аметистовый нагрудник",
+      "item.anomalies.amethyst_armor_leggings": "Аметистовые поножи",
+      "item.anomalies.amethyst_armor_helmet": "Аметистовый шлем",
+      "entity.anomalies.the_consumed": "Поглощенный",
+      "item.anomalies.the_consumed_spawn_egg": "Яйцо призыва Поглощенного",
+      "block.anomalies.jumplum": "Джамплум",
+      "item.anomalies.peacock_tail_chestplate": "Павлиный хвост",
+      "item.anomalies.tordolite": "Тордолит",
+      "block.anomalies.tordolite_ore": "Тордолитовая руда",
+      "block.anomalies.tordolite_block": "Блок тордолита",
+      "item.anomalies.tordolite_pickaxe": "Тордолитовая кирка",
+      "item.anomalies.tordolite_axe": "Тордолитовый топор",
+      "item.anomalies.tordolite_sword": "Тордолитовый меч",
+      "item.anomalies.tordolite_shovel": "Тордолитовая лопата",
+      "item.anomalies.tordolite_hoe": "Тордолитовая мотыга",
+      "item.anomalies.tordolite_armor_leggings": "Тордолитовые поножи",
+      "item.anomalies.tordolite_armor_boots": "Тордолитовые ботинки",
+      "item.anomalies.tordolite_armor_helmet": "Тордолитовый шлем",
+      "item.anomalies.tordolite_armor_chestplate": "Тордолитовый нагрудник",
+      "block.anomalies.deepslate_tordolite_ore": "Глубинная тордолитовая руда",
+      "block.anomalies.steel_block": "Стальной блок",
+      "block.anomalies.coal_coke_block": "Блок угольного кокса",
+      "block.anomalies.warped_netherack": "Искривленный адский камень",
+      "biome.anomalies.warped_precinct": "Искажённый участок",
+      "block.anomalies.netherrackironore": "Адская железная руда",
+      "block.anomalies.netherrack_gold_ore": "Адская золотая руда",
+      "block.anomalies.netherrack_lapis_ore": "Адская лазуритовая руда",
+      "painting.anomalies.gentleman_painting.title": "Джентельмен",
+      "painting.anomalies.gentleman_painting.author": "Чёл",
+      "advancements.warped_pricinple_found_achievement.title": "Заброшенный",
+      "advancements.warped_pricinple_found_achievement.descr": "Найдите Искажённый участок — территорию, используемую для исследований и экспериментов.",
+      "item.anomalies.residuous_loner_spawn_egg": "Яйцо призыва Одиночки",
+      "entity.anomalies.residuous_loner": "Одиночка",
+      "item.anomalies.olivine": "Оливин",
+      "block.anomalies.olivine_ore": "Оливиновая руда",
+      "block.anomalies.olivine_block": "Блок оливина",
+      "item.anomalies.olivine_pickaxe": "Оливиновая кирка",
+      "item.anomalies.olivine_axe": "Оливиновый топор",
+      "item.anomalies.olivine_sword": "Оливиновый меч",
+      "item.anomalies.olivine_shovel": "Оливиновая лопата",
+      "item.anomalies.olivine_hoe": "Оливиновая мотыга",
+      "item.anomalies.olivine_armor_helmet": "Оливиновый шлем",
+      "item.anomalies.olivine_armor_boots": "Оливиновые ботинки",
+      "item.anomalies.olivine_armor_chestplate": "Оливиновый нагрудник",
+      "item.anomalies.olivine_armor_leggings": "Оливиновые поножи",
+      "item.anomalies.torvine_alloy": "Торвинный сплав",
+      "item.anomalies.torvine_pickaxe": "Торвинная кирка",
+      "item.anomalies.torvine_axe": "Торвинный топор",
+      "item.anomalies.torvine_sword": "Торвинный меч",
+      "item.anomalies.torvine_shovel": "Торвинная лопата",
+      "item.anomalies.torvine_hoe": "Торвинная мотыга",
+      "item.anomalies.torvine_armor_boots": "Торвинные ботинки",
+      "item.anomalies.torvine_armor_helmet": "Торвинный шлем",
+      "item.anomalies.torvine_armor_chestplate": "Торвинный нагрудник",
+      "item.anomalies.torvine_armor_leggings": "Торвинные поножи",
+      "block.anomalies.torvine_block": "Торвинный блок",
+      "block.anomalies.darkenedwoodladder": "Тёмная лестница",
+      "block.anomalies.pure_amethyst_block": "Блок чистого аметиста",
+      "block.anomalies.darkened_chest": "Тёмная бочка",
+      "gui.anomalies.darkened_chest_gui.label_3776": "3776",
+      "gui.anomalies.darkened_chest_gui.label_0000": "0000",
+      "gui.anomalies.darkened_chest_gui.label_empty": "/",
+      "gui.anomalies.darkened_chest_gui.label_000": "000",
+      "gui.anomalies.darkened_chest_gui.label_0": "0",
+      "gui.anomalies.darkened_chest_gui.label_00": "00",
+      "gui.anomalies.darkened_chest_gui.label_darkened_barrel": "Тёмная бочка",
+      "item.anomalies.structure_finder": "Находчик Структур",
+      "gui.anomalies.structure_finder_gui.button_left_button": "\u003c",
+      "gui.anomalies.structure_finder_gui.button_structure": "Structure",
+      "gui.anomalies.structure_finder_gui.button_empty": "\u003e",
+      "gui.anomalies.structure_finder_gui.button_right_button": "\u003e",
+      "gui.anomalies.structure_finder_gui.label_structure": "Выберите структуру",
+      "gui.anomalies.structure_finder_gui.tooltip_input_tag_or_structure_name": "Тег или имя структуры",
+      "gui.anomalies.structure_finder_gui.input": "Название структуры:",
+      "gui.anomalies.structure_finder_gui.button_find": "Найти",
+      "item.anomalies.logo": "Logo"
+    }
+  },
+  "metadata": {
+    "files": [
+      "src/main/resources/pack.mcmeta",
+      "src/main/resources/META-INF/mods.toml",
+      "src/main/java/net/mcreator/anomalies/init/AnomaliesModModels.java",
+      "src/main/java/net/mcreator/anomalies/init/AnomaliesModTabs.java",
+      "src/main/resources/META-INF/accesstransformer.cfg",
+      "src/main/java/net/mcreator/anomalies/AnomaliesMod.java",
+      "src/main/java/net/mcreator/anomalies/init/AnomaliesModBiomes.java",
+      "src/main/java/net/mcreator/anomalies/network/MenuStateUpdateMessage.java",
+      "src/main/java/net/mcreator/anomalies/init/AnomaliesModMenus.java",
+      "src/main/java/net/mcreator/anomalies/init/AnomaliesModScreens.java",
+      "src/main/java/net/mcreator/anomalies/init/AnomaliesModFuels.java",
+      "src/main/java/net/mcreator/anomalies/init/AnomaliesModPaintings.java",
+      "src/main/resources/data/minecraft/tags/painting_variant/placeable.json",
+      "src/main/java/net/mcreator/anomalies/init/AnomaliesModParticleTypes.java",
+      "src/main/java/net/mcreator/anomalies/init/AnomaliesModParticles.java",
+      "src/main/java/net/mcreator/anomalies/init/AnomaliesModMobEffects.java",
+      "src/main/java/net/mcreator/anomalies/init/AnomaliesModBlocks.java",
+      "src/main/java/net/mcreator/anomalies/init/AnomaliesModBlockEntities.java",
+      "src/main/java/net/mcreator/anomalies/init/AnomaliesModItems.java",
+      "src/main/java/net/mcreator/anomalies/init/AnomaliesModEntities.java",
+      "src/main/java/net/mcreator/anomalies/init/AnomaliesModEntityRenderers.java"
+    ]
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "GUIs",
+        "children": []
+      },
+      {
+        "name": "Blocks",
+        "children": []
+      },
+      {
+        "name": "Packs",
+        "children": [
+          {
+            "name": "Darkened_Wood_",
+            "children": [
+              {
+                "name": "Recipies",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Steel",
+            "children": []
+          },
+          {
+            "name": "Tordolite",
+            "children": []
+          },
+          {
+            "name": "Olivine",
+            "children": []
+          },
+          {
+            "name": "Torvine",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Items",
+        "children": []
+      },
+      {
+        "name": "Vanilla Misc",
+        "children": [
+          {
+            "name": "Armor",
+            "children": []
+          },
+          {
+            "name": "Items",
+            "children": []
+          },
+          {
+            "name": "Blocks",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Procedures",
+        "children": []
+      },
+      {
+        "name": "Loot Tables",
+        "children": []
+      },
+      {
+        "name": "Structures",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "anomalies",
+    "modName": "The Anomalies",
+    "version": "1.0.0",
+    "description": "Medium Sized mod that adds structures, biomes, monsters and a bunch of items",
+    "author": "Trowa8",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "modPicture": "logo",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Created using MCreator",
+    "modElementsPackage": "net.mcreator.anomalies"
+  },
+  "mcreatorVersion": 202500228610
+}
