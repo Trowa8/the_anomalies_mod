@@ -1,0 +1,65 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      {
+        "value": "CUSTOM:PureAmethyst"
+      },
+      {
+        "value": "CUSTOM:SteelIngot"
+      },
+      {
+        "value": "Items.ENDER_EYE"
+      },
+      {
+        "value": "Items.COMPASS"
+      },
+      {
+        "value": "Items.RECOVERY_COMPASS"
+      }
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "EQUIPMENT",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Items.ENDER_EYE"
+      },
+      {
+        "value": "CUSTOM:SteelIngot"
+      },
+      {
+        "value": "Items.ENDER_EYE"
+      },
+      {
+        "value": "CUSTOM:SteelIngot"
+      },
+      {
+        "value": "Items.COMPASS"
+      },
+      {
+        "value": "CUSTOM:SteelIngot"
+      },
+      {
+        "value": "CUSTOM:PureAmethyst"
+      },
+      {
+        "value": "Items.RECOVERY_COMPASS"
+      },
+      {
+        "value": "CUSTOM:PureAmethyst"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:StructureFinder"
+    },
+    "name": "structure_finder_recipe",
+    "namespace": "mod"
+  }
+}

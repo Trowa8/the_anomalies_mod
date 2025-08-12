@@ -1,0 +1,36 @@
+{
+  "_fv": 79,
+  "_type": "structure",
+  "definition": {
+    "structure": "smallhut2",
+    "projection": "rigid",
+    "ignoredBlocks": [
+      {
+        "value": "Blocks.STRUCTURE_BLOCK"
+      }
+    ],
+    "spacing": 35,
+    "separation": 20,
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:Darken"
+      },
+      {
+        "value": "plains"
+      },
+      {
+        "value": "desert"
+      }
+    ],
+    "terrainAdaptation": "beard_thin",
+    "generationStep": "SURFACE_STRUCTURES",
+    "surfaceDetectionType": "WORLD_SURFACE_WG",
+    "useStartHeight": false,
+    "startHeightProviderType": "UNIFORM",
+    "startHeightMin": 0,
+    "startHeightMax": 128,
+    "size": 1,
+    "maxDistanceFromCenter": 64,
+    "jigsawPools": []
+  }
+}

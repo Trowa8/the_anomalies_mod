@@ -1,0 +1,24 @@
+{
+  "_fv": 79,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "Abandoned",
+    "achievementDescription": "Find the Warped Precinct, a territory used for research and experimentation.",
+    "achievementIcon": {
+      "value": "CUSTOM:WarpedNetherack"
+    },
+    "background": "Default",
+    "disableDisplay": false,
+    "showPopup": true,
+    "announceToChat": true,
+    "hideIfNotCompleted": false,
+    "rewardLoot": [],
+    "rewardRecipes": [],
+    "rewardXP": 4,
+    "achievementType": "task",
+    "parent": {
+      "value": "adventure/adventuring_time"
+    },
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"advancement_trigger\" deletable=\"false\" x=\"95\" y=\"37\"><next><block type=\"biome_entered\"><field name=\"biome\">CUSTOM:WarpedPrecinct</field></block></next></block></xml>"
+  }
+}

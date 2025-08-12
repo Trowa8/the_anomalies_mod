@@ -1,0 +1,8 @@
+{
+  "_fv": 79,
+  "_type": "procedure",
+  "definition": {
+    "procedurexml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><variables><variable type=\"Number\" id=\"nCurrentStructure\">nCurrentStructure</variable><variable type=\"String\" id=\"sVillageText\">sVillageText</variable><variable type=\"String\" id=\"sVillageCmd\">sVillageCmd</variable><variable type=\"String\" id=\"sStrongholdCmd\">sStrongholdCmd</variable><variable type=\"String\" id=\"sStrongholdText\">sStrongholdText</variable></variables><block type=\"event_trigger\" deletable=\"false\" x=\"105\" y=\"78\"><field name=\"trigger\">no_ext_trigger</field><next><block type=\"call_procedure\"><mutation xmlns=\"http://www.w3.org/1999/xhtml\" inputs=\"0\"></mutation><field name=\"procedure\">StructureFinderRightclicked</field><next><block type=\"wait\"><value name=\"ticks\"><block type=\"math_number\"><field name=\"NUM\">100</field></block></value><statement name=\"do\"><block type=\"entity_close_gui\"><value name=\"entity\"><block type=\"entity_from_deps\"></block></value></block></statement></block></next></block></next></block></xml>",
+    "skipDependencyNullCheck": false
+  }
+}

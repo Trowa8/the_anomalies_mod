@@ -1,0 +1,56 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      {
+        "value": "CUSTOM:Olivine"
+      },
+      {
+        "value": "CUSTOM:OlivineBlock"
+      }
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Olivine"
+      },
+      {
+        "value": "CUSTOM:Olivine"
+      },
+      {
+        "value": "CUSTOM:Olivine"
+      },
+      {
+        "value": "CUSTOM:Olivine"
+      },
+      {
+        "value": "CUSTOM:Olivine"
+      },
+      {
+        "value": "CUSTOM:Olivine"
+      },
+      {
+        "value": "CUSTOM:Olivine"
+      },
+      {
+        "value": "CUSTOM:Olivine"
+      },
+      {
+        "value": "CUSTOM:Olivine"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:OlivineBlock"
+    },
+    "name": "olivine_ore_block_recipe",
+    "namespace": "mod"
+  }
+}

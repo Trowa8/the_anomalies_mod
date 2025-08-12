@@ -1,0 +1,91 @@
+{
+  "_fv": 79,
+  "_type": "structure",
+  "definition": {
+    "structure": "residentual_bunker",
+    "projection": "rigid",
+    "ignoredBlocks": [
+      {
+        "value": "Blocks.STRUCTURE_BLOCK"
+      }
+    ],
+    "spacing": 50,
+    "separation": 25,
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:Darken"
+      },
+      {
+        "value": "plains"
+      },
+      {
+        "value": "savanna_rock"
+      }
+    ],
+    "terrainAdaptation": "bury",
+    "generationStep": "STRONGHOLDS",
+    "surfaceDetectionType": "WORLD_SURFACE_WG",
+    "useStartHeight": true,
+    "startHeightProviderType": "UNIFORM",
+    "startHeightMin": -10,
+    "startHeightMax": 60,
+    "size": 2,
+    "maxDistanceFromCenter": 64,
+    "jigsawPools": [
+      {
+        "poolName": "rb_pool",
+        "fallbackPool": "",
+        "poolParts": [
+          {
+            "weight": 3,
+            "structure": "rb_corridor_straight",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          },
+          {
+            "weight": 3,
+            "structure": "rb_corridor_x_section",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          },
+          {
+            "weight": 3,
+            "structure": "rb_corridor_turn",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          },
+          {
+            "weight": 3,
+            "structure": "rb_corridor_stub",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          },
+          {
+            "weight": 3,
+            "structure": "rb_corridor_collapsed_stub",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          },
+          {
+            "weight": 1,
+            "structure": "residentual_bunker",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          },
+          {
+            "weight": 2,
+            "structure": "rb_barracks",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          },
+          {
+            "weight": 2,
+            "structure": "rb_storage",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "_fv": 79,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 112,
+    "height": 83,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "name": "label_structure",
+          "text": {
+            "fixedValue": "Choose Structure"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 172,
+          "y": 89,
+          "locked": false
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "Structure Name:",
+          "name": "input",
+          "width": 99,
+          "height": 20,
+          "x": 163,
+          "y": 107,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_find",
+          "text": "Find",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "StructureFinderRightclicked"
+          },
+          "width": 46,
+          "height": 20,
+          "x": 190,
+          "y": 134,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_input_tag_or_structure_name",
+          "text": {
+            "fixedValue": "Input tag or structure name"
+          },
+          "width": 99,
+          "height": 18,
+          "x": 163,
+          "y": 107,
+          "locked": false
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 1,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}
