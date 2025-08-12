@@ -4,11 +4,8 @@ Requirements:
 
 for now only available for Forge. No other dependencies needed.
 
-
-About:
-
-
-This mod adds
+ 
+About: This mod adds
 
 Items: 59 items including new armor, weapons, tools and other.
 
