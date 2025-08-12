@@ -1,0 +1,122 @@
+/*
+ *    MCreator note: This file will be REGENERATED on each build.
+ */
+package net.mcreator.anomalies.init;
+
+import net.minecraftforge.registries.RegistryObject;
+import net.minecraftforge.registries.DeferredRegister;
+
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.CreativeModeTab;
+import net.minecraft.network.chat.Component;
+import net.minecraft.core.registries.Registries;
+
+import net.mcreator.anomalies.AnomaliesMod;
+
+public class AnomaliesModTabs {
+	public static final DeferredRegister<CreativeModeTab> REGISTRY = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, AnomaliesMod.MODID);
+	public static final RegistryObject<CreativeModeTab> ANOMALIES = REGISTRY.register("anomalies",
+			() -> CreativeModeTab.builder().title(Component.translatable("item_group.anomalies.anomalies")).icon(() -> new ItemStack(AnomaliesModItems.LOGO.get())).displayItems((parameters, tabData) -> {
+				tabData.accept(AnomaliesModBlocks.DARKENED_GRASS.get().asItem());
+				tabData.accept(AnomaliesModBlocks.DARKENED_DIRT.get().asItem());
+				tabData.accept(AnomaliesModBlocks.WARPED_NETHERACK.get().asItem());
+				tabData.accept(AnomaliesModBlocks.DARKENED_WOODEN_LOG.get().asItem());
+				tabData.accept(AnomaliesModBlocks.DARKENED_WOODEN_WOOD.get().asItem());
+				tabData.accept(AnomaliesModBlocks.DARKENED_WOODEN_PLANKS.get().asItem());
+				tabData.accept(AnomaliesModBlocks.DARKENED_WOODEN_LEAVES.get().asItem());
+				tabData.accept(AnomaliesModBlocks.DARKENED_WOODEN_STAIRS.get().asItem());
+				tabData.accept(AnomaliesModBlocks.DARKENED_WOODEN_SLAB.get().asItem());
+				tabData.accept(AnomaliesModBlocks.DARKENED_WOODEN_FENCE.get().asItem());
+				tabData.accept(AnomaliesModBlocks.DARKENED_WOODEN_FENCE_GATE.get().asItem());
+				tabData.accept(AnomaliesModBlocks.DARKENED_WOODEN_PRESSURE_PLATE.get().asItem());
+				tabData.accept(AnomaliesModBlocks.DARKENED_WOODEN_BUTTON.get().asItem());
+				tabData.accept(AnomaliesModBlocks.DARKENEDWOODLADDER.get().asItem());
+				tabData.accept(AnomaliesModBlocks.DARKENED_CHEST.get().asItem());
+				tabData.accept(AnomaliesModBlocks.DARKENED_WOOD_DOOR.get().asItem());
+				tabData.accept(AnomaliesModBlocks.TORDOLITE_BLOCK.get().asItem());
+				tabData.accept(AnomaliesModBlocks.STEEL_BLOCK.get().asItem());
+				tabData.accept(AnomaliesModBlocks.OLIVINE_BLOCK.get().asItem());
+				tabData.accept(AnomaliesModBlocks.TORVINE_BLOCK.get().asItem());
+				tabData.accept(AnomaliesModBlocks.PURE_AMETHYST_BLOCK.get().asItem());
+				tabData.accept(AnomaliesModBlocks.COAL_COKE_BLOCK.get().asItem());
+				tabData.accept(AnomaliesModBlocks.SPEEDLUM.get().asItem());
+				tabData.accept(AnomaliesModBlocks.JUMPLUM.get().asItem());
+				tabData.accept(AnomaliesModBlocks.LIMESTONE.get().asItem());
+				tabData.accept(AnomaliesModBlocks.NETHERRACKIRONORE.get().asItem());
+				tabData.accept(AnomaliesModBlocks.NETHERRACK_GOLD_ORE.get().asItem());
+				tabData.accept(AnomaliesModBlocks.NETHERRACK_LAPIS_ORE.get().asItem());
+				tabData.accept(AnomaliesModBlocks.TORDOLITE_ORE.get().asItem());
+				tabData.accept(AnomaliesModBlocks.DEEPSLATE_TORDOLITE_ORE.get().asItem());
+				tabData.accept(AnomaliesModBlocks.OLIVINE_ORE.get().asItem());
+				tabData.accept(AnomaliesModItems.STRUCTURE_FINDER.get());
+				tabData.accept(AnomaliesModItems.WOODEN_DAGGER.get());
+				tabData.accept(AnomaliesModItems.STONE_DAGGER.get());
+				tabData.accept(AnomaliesModItems.GOLD_DAGGER.get());
+				tabData.accept(AnomaliesModItems.IRON_DAGGER.get());
+				tabData.accept(AnomaliesModItems.DIAMOND_DAGGER.get());
+				tabData.accept(AnomaliesModItems.DARKENED_TOOL_PICKAXE.get());
+				tabData.accept(AnomaliesModItems.DARKENED_TOOL_AXE.get());
+				tabData.accept(AnomaliesModItems.DARKENED_TOOL_SWORD.get());
+				tabData.accept(AnomaliesModItems.DARKENED_TOOL_SHOVEL.get());
+				tabData.accept(AnomaliesModItems.DARKENED_TOOL_HOE.get());
+				tabData.accept(AnomaliesModItems.OAK_ARMOR_HELMET.get());
+				tabData.accept(AnomaliesModItems.OAK_ARMOR_CHESTPLATE.get());
+				tabData.accept(AnomaliesModItems.OAK_ARMOR_LEGGINGS.get());
+				tabData.accept(AnomaliesModItems.OAK_ARMOR_BOOTS.get());
+				tabData.accept(AnomaliesModItems.AMETHYST_PICKAXE.get());
+				tabData.accept(AnomaliesModItems.AMETHYST_AXE.get());
+				tabData.accept(AnomaliesModItems.AMETHYST_SWORD.get());
+				tabData.accept(AnomaliesModItems.AMETHYST_SHOVEL.get());
+				tabData.accept(AnomaliesModItems.AMETHYST_HOE.get());
+				tabData.accept(AnomaliesModItems.AMETHYST_ARMOR_HELMET.get());
+				tabData.accept(AnomaliesModItems.AMETHYST_ARMOR_CHESTPLATE.get());
+				tabData.accept(AnomaliesModItems.AMETHYST_ARMOR_LEGGINGS.get());
+				tabData.accept(AnomaliesModItems.AMETHYST_ARMOR_BOOTS.get());
+				tabData.accept(AnomaliesModItems.STEEL_PICKAXE.get());
+				tabData.accept(AnomaliesModItems.STEEL_AXE.get());
+				tabData.accept(AnomaliesModItems.STEEL_SWORD.get());
+				tabData.accept(AnomaliesModItems.STEEL_SHOVEL.get());
+				tabData.accept(AnomaliesModItems.STEEL_HOE.get());
+				tabData.accept(AnomaliesModItems.STEEL_ARMOR_HELMET.get());
+				tabData.accept(AnomaliesModItems.STEEL_ARMOR_CHESTPLATE.get());
+				tabData.accept(AnomaliesModItems.STEEL_ARMOR_LEGGINGS.get());
+				tabData.accept(AnomaliesModItems.STEEL_ARMOR_BOOTS.get());
+				tabData.accept(AnomaliesModItems.TORDOLITE_PICKAXE.get());
+				tabData.accept(AnomaliesModItems.TORDOLITE_AXE.get());
+				tabData.accept(AnomaliesModItems.TORDOLITE_SWORD.get());
+				tabData.accept(AnomaliesModItems.TORDOLITE_SHOVEL.get());
+				tabData.accept(AnomaliesModItems.TORDOLITE_HOE.get());
+				tabData.accept(AnomaliesModItems.TORDOLITE_ARMOR_HELMET.get());
+				tabData.accept(AnomaliesModItems.TORDOLITE_ARMOR_CHESTPLATE.get());
+				tabData.accept(AnomaliesModItems.TORDOLITE_ARMOR_LEGGINGS.get());
+				tabData.accept(AnomaliesModItems.TORDOLITE_ARMOR_BOOTS.get());
+				tabData.accept(AnomaliesModItems.OLIVINE_PICKAXE.get());
+				tabData.accept(AnomaliesModItems.OLIVINE_AXE.get());
+				tabData.accept(AnomaliesModItems.OLIVINE_SWORD.get());
+				tabData.accept(AnomaliesModItems.OLIVINE_SHOVEL.get());
+				tabData.accept(AnomaliesModItems.OLIVINE_HOE.get());
+				tabData.accept(AnomaliesModItems.OLIVINE_ARMOR_HELMET.get());
+				tabData.accept(AnomaliesModItems.OLIVINE_ARMOR_CHESTPLATE.get());
+				tabData.accept(AnomaliesModItems.OLIVINE_ARMOR_LEGGINGS.get());
+				tabData.accept(AnomaliesModItems.OLIVINE_ARMOR_BOOTS.get());
+				tabData.accept(AnomaliesModItems.TORVINE_PICKAXE.get());
+				tabData.accept(AnomaliesModItems.TORVINE_AXE.get());
+				tabData.accept(AnomaliesModItems.TORVINE_SWORD.get());
+				tabData.accept(AnomaliesModItems.TORVINE_SHOVEL.get());
+				tabData.accept(AnomaliesModItems.TORVINE_HOE.get());
+				tabData.accept(AnomaliesModItems.TORVINE_ARMOR_HELMET.get());
+				tabData.accept(AnomaliesModItems.TORVINE_ARMOR_CHESTPLATE.get());
+				tabData.accept(AnomaliesModItems.TORVINE_ARMOR_LEGGINGS.get());
+				tabData.accept(AnomaliesModItems.TORVINE_ARMOR_BOOTS.get());
+				tabData.accept(AnomaliesModItems.PEACOCK_TAIL_CHESTPLATE.get());
+				tabData.accept(AnomaliesModItems.TORVINE_ALLOY.get());
+				tabData.accept(AnomaliesModItems.TORDOLITE.get());
+				tabData.accept(AnomaliesModItems.OLIVINE.get());
+				tabData.accept(AnomaliesModItems.STEEL_INGOT.get());
+				tabData.accept(AnomaliesModItems.PURE_AMETHYST.get());
+				tabData.accept(AnomaliesModItems.STEEL_MIXTURE.get());
+				tabData.accept(AnomaliesModItems.COAL_COKE.get());
+				tabData.accept(AnomaliesModItems.RESIDUOUS_LONER_SPAWN_EGG.get());
+				tabData.accept(AnomaliesModItems.THE_CONSUMED_SPAWN_EGG.get());
+			}).build());
+}
