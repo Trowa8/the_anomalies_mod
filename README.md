@@ -9,9 +9,13 @@ About:
 This mod adds
 
 Items: 59 items including new armor, weapons, tools and other.
+
 Blocks: 31 new blocks including new ores and cool blocks.
+
 Biomes: 2 new biomes Darken and Warped Precinct.
+
 Creatures: 2 new creatures that spawn in their respectable biome.
+
 Structures: 5 small structures and 1 big underground structure.
 
 
